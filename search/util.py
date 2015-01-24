@@ -426,6 +426,10 @@ class Counter(dict):
         return addend
 
 def raiseNotDefined():
+    """
+
+    :rtype : object
+    """
     fileName = inspect.stack()[1][1]
     line = inspect.stack()[1][2]
     method = inspect.stack()[1][3]
