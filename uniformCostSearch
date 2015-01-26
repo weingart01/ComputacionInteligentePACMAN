@@ -1,0 +1,42 @@
+def uniformCostSearch(problem):
+    """Search the node of least total cost first."""
+    "*** YOUR CODE HERE ***"
+    from game import Directions
+    from util import PriorityQueue
+
+    Metas = PriorityQueue()
+
+    Frontera = PriorityQueue()
+    Frontera.push((problem.getStartState(),[],0),0)
+
+    Cerrados = set(problem.getStartState())
+
+    while not Frontera.isEmpty():
+        actual, path, priority = Frontera.pop()
+        print actual
+        print ":"
+        if problem.isGoalState(actual):
+                Metas.push(path,priority)
+        else:
+            for state, action, cost in problem.getSuccessors(actual):
+                if state not in Cerrados:
+                    Cerrados.add(state)
+                    Frontera.push((state ,path[0:len(path)]+[action] ,priority+cost),priority+cost)
+                    #FronteraAux.add((state ,path[0:len(path)]+[action] ,priority+cost))
+                else:
+                    #if problem.isGoalState(state):
+                    #    Frontera.push((state ,path[0:len(path)]+[action] ,priority+cost),priority+cost)
+                    Fronteraaux = PriorityQueue()
+                    while not Frontera.isEmpty():
+                        auxS, auxP, auxC = Frontera.pop()
+                        if auxS == state:
+                            if auxC > priority+cost:
+                                Fronteraaux.push((state,path[0:len(path)]+[action] ,priority+cost),priority+cost)
+                            else:
+                                Fronteraaux.push((auxS,auxP,auxC),auxC)
+                        else:
+                            Fronteraaux.push((auxS, auxP, auxC), auxC)
+                    Frontera = Fronteraaux
+                print state,priority+cost
+        print "---------------"
+    return Metas.pop()
