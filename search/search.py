@@ -132,75 +132,29 @@ def depthFirstSearch(problem):
 
 def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
-    closedset = []
-    fringe = util.PriorityQueue()
-    start = problem.getStartState()
-    fringe.push( (start, []), heuristic(start, problem))
-
-    while not fringe.isEmpty():
-        node, actions = fringe.pop()
-
-        if problem.isGoalState(node):
-            return actions
-
-        closedset.append(node)
-
-        for coord, direction, cost in problem.getSuccessors(node):
-            if not coord in closedset:
-                new_actions = actions + [direction]
-                score = problem.getCostOfActions(new_actions) + heuristic(coord, problem)
-                fringe.push( (coord, new_actions), score)
-
-    return []
     "*** YOUR CODE HERE ***"
-    """
-    from game import Directions
-    from util import Queue
-
-    s = Directions.SOUTH
-    w = Directions.WEST
-    e = Directions.EAST
-    n = Directions.NORTH
-
-    # Estructura del DFS
-    frontera = Queue()  # es la lista
-    frontera.push(problem.getStartState())  # anadimos el nodo inical a la frontera
-    estadoActual = problem.getStartState()  # obtenemos el estado del nodo inicial
-    nodosCerrados = set()
-    nodosCerrados.add(estadoActual)  # creamos la estructura set para los nodos cerrados
-
-    # result es el diccionario del tipo tupla que nos indica la solucion de los caminos
-    # a seguir para la solucion del problema
-
-    result = {}
-    nodos = 0
-    result[estadoActual] = [estadoActual, []]
-
-    print problem.isGoalState()
-
-    while (problem.isGoalState(estadoActual) == False & frontera.isEmpty() == False):
-        estadosSucesores = problem.getSuccessors(estadoActual)
-        for hijos in estadosSucesores:
-            if hijos[0] not in nodosCerrados:
-                frontera.push(hijos)
-                result[hijos[0]] = (estadoActual, [])
-                for elements in result[estadoActual][1]:
-                    result[hijos[0]][1].append(elements)
-                result[hijos[0]][1].append(hijos[1])
-
-        estadoActual = frontera.pop()[0]
-        nodosCerrados.add(estadoActual)
-
-    print "Nodos analizados: %i" % nodos
-
-    return result[estadoActual][1]"""
     util.raiseNotDefined()
 
 def uniformCostSearch(problem):
     """Search the node of least total cost first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    from util import PriorityQueue
 
+    frontera = PriorityQueue()
+    frontera.push((problem.getStartState(),[]),0)
+    nodosCerrados = set()
+
+    while not frontera.isEmpty():
+        estadoActual, path = frontera.pop()
+        if problem.isGoalState(estadoActual):
+            return path
+        if estadoActual not in nodosCerrados:
+            nodosCerrados.add(estadoActual)
+            for hijos, action, cost in problem.getSuccessors(estadoActual):
+                #if hijos not in nodosCerrados:
+                newpath = path + [action]
+                frontera.push((hijos ,newpath), problem.getCostOfActions(newpath))
+    return []
 
 def nullHeuristic(state, problem=None):
     """
@@ -213,184 +167,28 @@ def nullHeuristic(state, problem=None):
 def aStarSearch(problem, heuristic=nullHeuristic):
     """Search the node that has the lowest combined cost and heuristic first."""
     "*** YOUR CODE HERE ***"
-    """
-    from game import Directions
-    from util import PriorityQueue
-
-    s = Directions.SOUTH
-    w = Directions.WEST
-    e = Directions.EAST
-    n = Directions.NORTH
-
-    estadoActual = problem.getStartState()
-    estadosCerrados = set()
-    frontera = PriorityQueue()
-    result = {}
-    result[estadoActual] = (estadoActual, [], 0)
-    distanciah = result[estadoActual][2] + heuristic(estadoActual, problem)
-    frontera.push(estadoActual, distanciah)
-
-    while (frontera.isEmpty() == False):
-        estadoActual = frontera.pop()
-        if (problem.isGoalState(estadoActual)):
-            return result[estadoActual][1]
-        else:
-            estadosCerrados.add(estadoActual)
-            estadosSucesores = problem.getSuccessors(estadoActual)
-            for hijos in estadosSucesores:
-                if hijos[0] not in estadosCerrados:
-                    result[hijos[0]] = (estadoActual, [], result[estadoActual][2] + hijos[2])
-                    for elements in result[estadoActual][1]:
-                        result[hijos[0]][1].append(elements)
-                    result[hijos[0]][1].append(hijos[1])
-                    distanciah = result[hijos[0]][2] + heuristic(hijos[0], problem)
-                    frontera.push(hijos[0], distanciah)
-
-    visitedNodes = set()
-    pQueue = util.PriorityQueue()
-    goalState = (1,1)
-    d = {}
-    nodo = problem.getStartState()
-    d[nodo] = (nodo, [], 0)
-    distheur = d[nodo][2] + heuristic(nodo, problem)
-    pQueue.push(nodo, distheur)
-
-    while pQueue.isEmpty() == False:
-        nodo = pQueue.pop()
-
-        if problem.isGoalState(nodo):
-            return d[nodo][1]
-
-        visitedNodes.add(nodo)
-
-        for nb in problem.getSuccessors(nodo):
-            if nb[0] not in visitedNodes:
-                d[nb[0]] = (nodo, [], d[nodo][2] + nb[2])
-                for mov in d[nodo][1]:
-                    d[nb[0]][1].append(mov)
-                d[nb[0]][1].append(nb[1])
-                distheur = d[nb[0]][2] + heuristic(nb[0], problem)
-                pQueue.push(nb[0], distheur)
-    """
-    print "Start:", problem.getStartState()
+    """print "Start:", problem.getStartState()
     print "Is the start a goal?", problem.isGoalState(problem.getStartState())
     print "Start's successors:", problem.getSuccessors(problem.getStartState())
     """
-    #variable for whether or not goal has been reached
-    #variable for whether or not goal has been reached
-    reachedGoal=False
-    exploredAll=False
-    previousCost = 0;
-    startState=problem.getStartState()
-    exploredStatesDictionary=util.Counter()
-    exploredStatesDictionary[0] = problem.getStartState()
-    frontierDictionary=util.Counter()
-    frontierList=problem.getSuccessors(problem.getStartState())
+    from util import PriorityQueue
 
-    #hash table for list of vertices as key
-    vectorDictionary={}
-    #create stack to hold the frontier states
-    frontierQueue=util.PriorityQueue()
-    #queue to hold list of actions
-    actionsQueue=[]
-    addedNodes=[]
+    frontera = PriorityQueue()
+    frontera.push((problem.getStartState(),[]),0)
+    nodosCerrados = set()
 
-        #push the frontier states onto the stack
-        for i in frontierList:
-        fNode=i
-        frontierQueue.push(fNode,actionsQueue)
-
-    for i in frontierList:
-    actionsThisFar=copy.deepcopy(actionsQueue)
-    successor = str(i[0])
-    vectorDictionary[successor]=actionsThisFar
-
-    #push the frontier states onto the stack
-    for i in frontierList:
-        fNode=i
-        frontierQueue.push(fNode,i[2])
-        addedNodes.append(fNode[0])
-
-    #key variable, key to exploredStatesDictionary
-    seenAlready=1
-    while reachedGoal==False:
-        for i in addedNodes:
-            popped=addedNodes.pop()
-            exploredStatesDictionary[seenAlready] = popped
-            seenAlready = seenAlready + 1
-
-    #get next state to explore, the first state from the stack
-    #also save the action required to get to that point
-    tempState=frontierQueue.pop()
-    previousCost = tempState[2]
-    nextState=tempState[0]
-
-    nextAction=tempState[1]
-
-    #save the explored state
-    exploredStatesDictionary[seenAlready] = nextState
-
-    seenAlready = seenAlready+1
-
-
-    #next state becomes current state
-
-
-    #badNode = frontierQueue.pop()
-    #firstNode = frontierQueue.pop()
-    reset = str(tempState[0])
-
-    #problem
-    newActionsList = vectorDictionary[reset]
-    newActionsList.append(tempState[1])
-
-
-    #empty the old action list
-
-    actionsQueue=copy.deepcopy(newActionsList)
-
-
-    currentState=nextState
-
-    #check if it is goal
-
-
-    if (problem.isGoalState(currentState)):
-        reachedGoal=True
-
-    else:
-        #the current state is not the goal
-        #acquire the new frontier
-
-        frontierList=problem.getSuccessors(currentState)
-        for i in frontierList:
-            explored=False
-            counter=0
-            for k in exploredStatesDictionary:
-                stateCo=exploredStatesDictionary[k]
-                if ((i[0] == stateCo)):
-                    explored = True
-                    counter = counter+1
-
-            elif ((explored == False) and (k == ((len(exploredStatesDictionary)))-1)):
-                actionsThisFar=copy.deepcopy(actionsQueue)
-                successor = str(i[0])
-                vectorDictionary[successor]=actionsThisFar
-                fNode = i
-                hCost=heuristic(i[0],problem)
-                newCost = i[2] + previousCost + hCost
-                fNode=list(fNode)
-                #update
-                fNode[2]=newCost
-                #back to tuple
-                fNode=tuple(fNode)
-                frontierQueue.push(fNode, newCost)
-                addedNodes.append(fNode[0])
-    "*** YOUR CODE HERE ***"
-    length = len(actionsQueue)
-    return actionsQueue
-    """
-
+    while not frontera.isEmpty():
+        estadoActual, path = frontera.pop()
+        if problem.isGoalState(estadoActual):
+            return path
+        if estadoActual not in nodosCerrados:
+            nodosCerrados.add(estadoActual)
+            for hijos, action, cost in problem.getSuccessors(estadoActual):
+                if hijos not in nodosCerrados:
+                    newpath = path + [action]
+                    fn = problem.getCostOfActions(newpath) + heuristic(hijos, problem)
+                    frontera.push((hijos ,newpath), fn)
+    return []
 
 
 # Abbreviations
