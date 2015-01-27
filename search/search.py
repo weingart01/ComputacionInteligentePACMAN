@@ -151,9 +151,9 @@ def uniformCostSearch(problem):
         if estadoActual not in nodosCerrados:
             nodosCerrados.add(estadoActual)
             for hijos, action, cost in problem.getSuccessors(estadoActual):
-                #if hijos not in nodosCerrados:
-                newpath = path + [action]
-                frontera.push((hijos ,newpath), problem.getCostOfActions(newpath))
+                if hijos not in nodosCerrados:
+                    newpath = path + [action]
+                    frontera.push((hijos ,newpath), problem.getCostOfActions(newpath))
     return []
 
 def nullHeuristic(state, problem=None):
