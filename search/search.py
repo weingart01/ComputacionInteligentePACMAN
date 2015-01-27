@@ -131,9 +131,26 @@ def depthFirstSearch(problem):
     return result[estadoActual][1]
 
 def breadthFirstSearch(problem):
-    """Search the shallowest nodes in the search tree first."""
+   """Search the shallowest nodes in the search tree first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    from game import Directions
+    from util import Queue
+
+    Frontera = Queue()
+    Frontera.push((problem.getStartState(),[]))
+    Cerrados = set(problem.getStartState())
+
+    while not Frontera.isEmpty():
+        actual, path = Frontera.pop()
+        if problem.isGoalState(actual):
+            return path
+        else:
+            for state, action, cost in problem.getSuccessors(actual):
+                if state not in Cerrados:
+                    Cerrados.add(state)
+                    Frontera.push((state, path[0:len(path)]+[action]))
+    return []
+    #util.raiseNotDefined()
 
 def uniformCostSearch(problem):
     """Search the node of least total cost first."""
