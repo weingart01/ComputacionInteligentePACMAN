@@ -109,7 +109,6 @@ def depthFirstSearch(problem):
     # util.raiseNotDefined()
 
 
-
 def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
     from util import Queue
@@ -154,6 +153,8 @@ def uniformCostSearch(problem):
                     frontera.push((hijo, nuevocamino), problem.getCostOfActions(nuevocamino)) # agregamos el hijo a la frontera
     return []
 
+    # util.raiseNotDefined()
+
 # (1) nos indica si ya hay un estado igual a el que queremos introducir, para evitar vueltas
 # (2) evita las vueltas del hijo al padre
 # como utilizamos una priority Queue no hace falta mirar en la frontera si ya existe el mismo en la frontera
@@ -196,6 +197,8 @@ def aStarSearch(problem, heuristic=nullHeuristic):
                     fn = problem.getCostOfActions(nuevocamino) + heuristic(hijo, problem)   # f(n) = g(n) + h(n)
                     frontera.push((hijo, nuevocamino), fn)
     return []
+
+    # util.raiseNotDefined()
 
 # Abbreviations
 bfs = breadthFirstSearch
