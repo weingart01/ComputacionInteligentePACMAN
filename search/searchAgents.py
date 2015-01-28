@@ -288,7 +288,8 @@ class CornersProblem(search.SearchProblem):
         # Please add any code here which you would like to use
         # in initializing the problem
         "*** YOUR CODE HERE ***"
-        self.visited_corners = ()
+        #self.visited_corners = ()
+        self.startState = (self.startingPosition,self.corners)
         
     def getStartState(self):
         """
@@ -297,7 +298,7 @@ class CornersProblem(search.SearchProblem):
         """
         "*** YOUR CODE HERE ***"
         #util.raiseNotDefined()
-        return self.startingPosition
+        return self.startState
 
     def isGoalState(self, state):
         """
@@ -305,9 +306,9 @@ class CornersProblem(search.SearchProblem):
         """
         "*** YOUR CODE HERE ***"
         #util.raiseNotDefined()
-        if state in self.corners and state not in self.visited_corners:
-            self.visited_corners.__add__(state)
-        return len(self.visited_corners) == 4
+        #La busqueda termina una vez nuestro recorrido de nodos desplegados ha cruzado todas las esquinas, el mejor caso son 28 despliegues
+        return len(state[1]) == 0
+        #util.raiseNotDefined()
 
     def getSuccessors(self, state):
         """
@@ -330,15 +331,24 @@ class CornersProblem(search.SearchProblem):
             #   hitsWall = self.walls[nextx][nexty]
 
             "*** YOUR CODE HERE ***"
-            x, y = state
+            position, visitados = state
+            x,y = position
+
+            pendientes = []
+
             dx, dy = Actions.directionToVector(action)
             nextx, nexty = int(x + dx), int(y + dy)
-            hitsWall = self.walls[nextx][nexty]
-            if not hitsWall:
-                successors.append(((nextx,nexty),action,1))
-        self._expanded += 1 # DO NOT CHANGE
-        #Chivato de los despliegues
-        print state, successors
+            #Comprobamos que el nodo desplegado no es un nodo celda y en caso de ser corner lo retiramos de la lista de pendientes
+            #una vez la lista se quede vacia para un recorrido significa que ya habremos recorrido todos los nodos
+            if not self.walls[nextx][nexty]:
+                if (nextx,nexty) in visitados:
+                    for corners in visitados:
+                        if (nextx,nexty) != corners:
+                            pendientes.append(corners)
+                else:
+                    pendientes = visitados
+                successors.append( ( ((nextx, nexty), tuple(pendientes)), action, 1) )
+        self._expanded += 1
         return successors
 
     def getCostOfActions(self, actions):
@@ -368,30 +378,41 @@ def cornersHeuristic(state, problem):
     shortest path from the state to a goal of the problem; i.e.  it should be
     admissible (as well as consistent).
     """
-    corners = problem.corners # These are the corner coordinates
-    walls = problem.walls # These are the walls of the maze, as a Grid (game.py)
+    #corners = problem.corners # These are the corner coordinates
+    #walls = problem.walls # These are the walls of the maze, as a Grid (game.py)
 
     "*** YOUR CODE HERE ***"
-    node = state[0]
-    visitedCorners = state[1]
-    corners = problem.corners # These are the corner coordinates
-    walls = problem.walls # These are the walls of the maze, as a Grid (game.py)
+    from util import PriorityQueue
 
-    unvisitedCorners = []
-    sum = 0
+    heuristicCost = 0
+
+    current , corners = state
+    x, y = current
+
+    CornerStates = PriorityQueue()
+    CornerStates.push((current,0), 0)
+
+    #Primero de todo necesitamos calcular la distancia del nodo desplegado a cada una de las esquinas
     for corner in corners:
-        if not corner in visitedCorners:
-            unvisitedCorners.append(corner)
+        cx, cy = corner
+        CornerStates.push((corner,abs(x-cx)+abs(y-cy)), abs(x-cx)+abs(y-cy))
 
-    currentPoint = node
-    while len(unvisitedCorners) > 0:
-        distance, corner = min([(util.manhattanDistance(currentPoint, corner), corner) for corner in unvisitedCorners])
-        sum += distance
-        currentPoint = corner
-        unvisitedCorners.remove(corner)
+    #Para el corner mas cercano ordenado por la distancia en la cola de prioridad vamos actualizando
+    # la distancia heuristica segun la posicion actual del estado
+    while not CornerStates.isEmpty():
+        position, distance = CornerStates.pop()
+        x, y = position
+        heuristicCost += distance
+        new_CornerStates = PriorityQueue()
+        for priority, order, cornerstate in CornerStates.heap:
+            pos, dist = cornerstate
+            cx, cy = pos
+            if (pos != position):
+                new_CornerStates.push((pos, abs(x-cx)+abs(y-cy)), abs(x-cx)+abs(y-cy))
+        CornerStates = new_CornerStates
 
-    print "Heuristic: ", sum
-    return sum
+    return heuristicCost
+    
 
 class AStarCornersAgent(SearchAgent):
     "A SearchAgent for FoodSearchProblem using A* and your foodHeuristic"
