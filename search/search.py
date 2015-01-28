@@ -90,88 +90,75 @@ def depthFirstSearch(problem):
     print "Start's successors:", problem.getSuccessors(problem.getStartState())
     """
     "*** YOUR CODE HERE ***"
-    # Carga de las acciones disponibles
-    from game import Directions
-    from util import Stack
+    from util import Stack                       # utilizamos el EDA Stack para la implementacion de la frontera
+    frontera = Stack()                           # es la lista frontera, de los nodos a analizar
+    frontera.push((problem.getStartState(),[]))  # anadimos el nodo inical a la frontera
+    nodosCerrados = set()                        # creamos la estructura set para los nodos cerrados
 
-    s = Directions.SOUTH
-    w = Directions.WEST
-    e = Directions.EAST
-    n = Directions.NORTH
+    while not frontera.isEmpty():                # miramos si la frontera no esta vacia
+        nodoActual, camino = frontera.pop()      # quitamos el nodo a tratar, el ultimo que ha entrado en este caso
+        if problem.isGoalState(nodoActual):      # verificamos si es un nodo que pertenece al conjunto Sg (Goal)
+            return camino                        # si es asi, enviamos la respuesta
+        nodosCerrados.add(nodoActual)            # si no, lo agregamos a los nodos cerrados
+        for hijo, direccion, coste in problem.getSuccessors(nodoActual):  # expandimos el nodo que acabamos de ver
+            if hijo not in nodosCerrados:                                 # Loop detection, vemos si ya lo hemos visto
+                frontera.push((hijo, camino + [direccion]))               # si no, lo agregamos a la frontera
 
-    # Estructura del DFS
-    frontera = Stack()  # es la lista
-    frontera.push(problem.getStartState())  # anadimos el nodo inical a la frontera
-    estadoActual = problem.getStartState()  # obtenemos el estado del nodo inicial
-    nodosCerrados = set()
-    nodosCerrados.add(estadoActual)  # creamos la estructura set para los nodos cerrados
+    return []
 
-    # result es el diccionario del tipo tupla que nos indica la solucion de los caminos
-    # a seguir para la solucion del problema
+    # util.raiseNotDefined()
 
-    result = {}
-    nodos = 0
-    result[estadoActual] = [estadoActual, []]
 
-    while (problem.isGoalState(estadoActual) == False):
-        estadosSucesores = problem.getSuccessors(estadoActual)
-        for hijos in estadosSucesores:
-            if hijos[0] not in nodosCerrados:
-                frontera.push(hijos)
-                result[hijos[0]] = (estadoActual, [])
-                for elements in result[estadoActual][1]:
-                    result[hijos[0]][1].append(elements)
-                result[hijos[0]][1].append(hijos[1])
-
-        estadoActual = frontera.pop()[0]
-        nodosCerrados.add(estadoActual)
-
-    print "Nodos analizados: %i" % nodos
-
-    return result[estadoActual][1]
 
 def breadthFirstSearch(problem):
-   """Search the shallowest nodes in the search tree first."""
-    "*** YOUR CODE HERE ***"
-    from game import Directions
+    """Search the shallowest nodes in the search tree first."""
     from util import Queue
 
-    Frontera = Queue()
-    Frontera.push((problem.getStartState(),[]))
-    Cerrados = set(problem.getStartState())
+    frontera = Queue()
+    frontera.push((problem.getStartState(), []))
+    nodosCerrados = set()
+    # nodosCerrados = set(problem.getStartState())
 
-    while not Frontera.isEmpty():
-        actual, path = Frontera.pop()
-        if problem.isGoalState(actual):
-            return path
-        else:
-            for state, action, cost in problem.getSuccessors(actual):
-                if state not in Cerrados:
-                    Cerrados.add(state)
-                    Frontera.push((state, path[0:len(path)]+[action]))
+    while not frontera.isEmpty():
+        nodoActual, camino = frontera.pop()
+        if problem.isGoalState(nodoActual):
+            return camino
+        nodosCerrados.add(nodoActual)
+        for hijo, direccion, coste in problem.getSuccessors(nodoActual):
+            if hijo not in nodosCerrados:
+                nodosCerrados.add(hijo)
+                frontera.push((hijo, camino[0:len(camino)] + [direccion]))
     return []
-    #util.raiseNotDefined()
+
+    # util.raiseNotDefined()
+
 
 def uniformCostSearch(problem):
     """Search the node of least total cost first."""
     "*** YOUR CODE HERE ***"
     from util import PriorityQueue
 
-    frontera = PriorityQueue()
-    frontera.push((problem.getStartState(),[]),0)
-    nodosCerrados = set()
+    frontera = PriorityQueue()                      # utilizamos el EDA que se corresponde al comportamiento de una cola de prioridad
+    frontera.push((problem.getStartState(), []), 0) # anadimos el primer nodo a la frontera, al inicio tiene prioridad 0
+    nodosCerrados = set()                           # creamos el set de los nodos cerrados
 
-    while not frontera.isEmpty():
-        estadoActual, path = frontera.pop()
-        if problem.isGoalState(estadoActual):
-            return path
-        if estadoActual not in nodosCerrados:
-            nodosCerrados.add(estadoActual)
-            for hijos, action, cost in problem.getSuccessors(estadoActual):
-                if hijos not in nodosCerrados:
-                    newpath = path + [action]
-                    frontera.push((hijos ,newpath), problem.getCostOfActions(newpath))
+    while not frontera.isEmpty():                   # miramos si la frontera esta vacia
+        nodoActual, camino = frontera.pop()         # extraemos el nodo a tratar
+        if problem.isGoalState(nodoActual):         # si el nodo tiene un estado que esta dentro de Sg
+            return camino                           # devolvemos la solucion
+        if nodoActual not in nodosCerrados:         # Loop detection (1)
+            nodosCerrados.add(nodoActual)           # agregamos el nodo actual a nodos cerrados
+            for hijo, direccion, coste in problem.getSuccessors(nodoActual):    # expandimos el nodo cerrado
+                if hijo not in nodosCerrados:                                   # Loop detection (2)
+                    nuevocamino = camino + [direccion]                          # creamos el camino del hijo
+                    frontera.push((hijo, nuevocamino), problem.getCostOfActions(nuevocamino)) # agregamos el hijo a la frontera
     return []
+
+# (1) nos indica si ya hay un estado igual a el que queremos introducir, para evitar vueltas
+# (2) evita las vueltas del hijo al padre
+# como utilizamos una priority Queue no hace falta mirar en la frontera si ya existe el mismo en la frontera
+# ya que la prioridad que utilizamos nos ahorra el trabajo de eliminar peores estados, porque siempre estaremos
+# viendo primero los mejores estados
 
 def nullHeuristic(state, problem=None):
     """
@@ -188,25 +175,27 @@ def aStarSearch(problem, heuristic=nullHeuristic):
     print "Is the start a goal?", problem.isGoalState(problem.getStartState())
     print "Start's successors:", problem.getSuccessors(problem.getStartState())
     """
+    # la implementacion del A* es similar al Uniform Cost Search, ya que Dijkstra no posee la heuristica
+    # mas abajo, hemos implementado la funcion f(n) que en este caso, se corresponde a nuestra prioridad
+
     from util import PriorityQueue
 
     frontera = PriorityQueue()
-    frontera.push((problem.getStartState(),[]),0)
+    frontera.push((problem.getStartState(), []), 0)
     nodosCerrados = set()
 
     while not frontera.isEmpty():
-        estadoActual, path = frontera.pop()
-        if problem.isGoalState(estadoActual):
-            return path
-        if estadoActual not in nodosCerrados:
-            nodosCerrados.add(estadoActual)
-            for hijos, action, cost in problem.getSuccessors(estadoActual):
-                if hijos not in nodosCerrados:
-                    newpath = path + [action]
-                    fn = problem.getCostOfActions(newpath) + heuristic(hijos, problem)
-                    frontera.push((hijos ,newpath), fn)
+        nodoActual, camino = frontera.pop()
+        if problem.isGoalState(nodoActual):
+            return camino
+        if nodoActual not in nodosCerrados:
+            nodosCerrados.add(nodoActual)
+            for hijo, direccion, coste in problem.getSuccessors(nodoActual):
+                if hijo not in nodosCerrados:
+                    nuevocamino = camino + [direccion]
+                    fn = problem.getCostOfActions(nuevocamino) + heuristic(hijo, problem)   # f(n) = g(n) + h(n)
+                    frontera.push((hijo, nuevocamino), fn)
     return []
-
 
 # Abbreviations
 bfs = breadthFirstSearch
