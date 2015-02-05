@@ -243,7 +243,7 @@ class StayWestSearchAgent(SearchAgent):
     An agent for position search with a cost function that penalizes being in
     positions on the East side of the board.
 
-    The cost function for stepping into a position (x,y) is 2^x.
+    The cost function for steapping into a position (x,y) is 2^x.
     """
     def __init__(self):
         self.searchFunction = search.uniformCostSearch
@@ -288,24 +288,22 @@ class CornersProblem(search.SearchProblem):
         # Please add any code here which you would like to use
         # in initializing the problem
         "*** YOUR CODE HERE ***"
-        #self.visited_corners = ()
+        #self.visited_corners = set()
         self.startState = (self.startingPosition,self.corners)
-        
     def getStartState(self):
         """
         Returns the start state (in your state space, not the full Pacman state
         space)
         """
         "*** YOUR CODE HERE ***"
-        #util.raiseNotDefined()
         return self.startState
+        #util.raiseNotDefined()
 
     def isGoalState(self, state):
         """
         Returns whether this search state is a goal state of the problem.
         """
         "*** YOUR CODE HERE ***"
-        #util.raiseNotDefined()
         #La busqueda termina una vez nuestro recorrido de nodos desplegados ha cruzado todas las esquinas, el mejor caso son 28 despliegues
         return len(state[1]) == 0
         #util.raiseNotDefined()
@@ -320,7 +318,6 @@ class CornersProblem(search.SearchProblem):
             state, 'action' is the action required to get there, and 'stepCost'
             is the incremental cost of expanding to that successor
         """
-
         successors = []
         for action in [Directions.NORTH, Directions.SOUTH, Directions.EAST, Directions.WEST]:
             # Add a successor state to the successor list if the action is legal
@@ -329,7 +326,7 @@ class CornersProblem(search.SearchProblem):
             #   dx, dy = Actions.directionToVector(action)
             #   nextx, nexty = int(x + dx), int(y + dy)
             #   hitsWall = self.walls[nextx][nexty]
-
+            #
             "*** YOUR CODE HERE ***"
             position, visitados = state
             x,y = position
@@ -364,7 +361,6 @@ class CornersProblem(search.SearchProblem):
             if self.walls[x][y]: return 999999
         return len(actions)
 
-
 def cornersHeuristic(state, problem):
     """
     A heuristic for the CornersProblem that you defined.
@@ -378,9 +374,8 @@ def cornersHeuristic(state, problem):
     shortest path from the state to a goal of the problem; i.e.  it should be
     admissible (as well as consistent).
     """
-    #corners = problem.corners # These are the corner coordinates
-    #walls = problem.walls # These are the walls of the maze, as a Grid (game.py)
-
+    corners = problem.corners # These are the corner coordinates
+    walls = problem.walls # These are the walls of the maze, as a Grid (game.py)
     "*** YOUR CODE HERE ***"
     from util import PriorityQueue
 
@@ -412,7 +407,9 @@ def cornersHeuristic(state, problem):
         CornerStates = new_CornerStates
 
     return heuristicCost
-    
+
+
+    #return 0 # Default to trivial solution
 
 class AStarCornersAgent(SearchAgent):
     "A SearchAgent for FoodSearchProblem using A* and your foodHeuristic"
