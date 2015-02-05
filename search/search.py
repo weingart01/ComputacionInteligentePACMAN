@@ -111,22 +111,21 @@ def depthFirstSearch(problem):
 
 def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
-    from util import Queue
-
-    frontera = Queue()
-    frontera.push((problem.getStartState(), []))
-    nodosCerrados = set()
+    from util import Queue                      # utilizamos el EDA Queue para la implementacion de la frontera
+    frontera = Queue()                          # es la frontera, esta vez es una cola
+    frontera.push((problem.getStartState(), []))# anadimos el nodo inicial a la frontera
+    nodosCerrados = set()                       # creamos la estructura para los nodos cerrados
     # nodosCerrados = set(problem.getStartState())
 
-    while not frontera.isEmpty():
-        nodoActual, camino = frontera.pop()
-        if problem.isGoalState(nodoActual):
-            return camino
-        nodosCerrados.add(nodoActual)
-        for hijo, direccion, coste in problem.getSuccessors(nodoActual):
-            if hijo not in nodosCerrados:
-                nodosCerrados.add(hijo)
-                frontera.push((hijo, camino[0:len(camino)] + [direccion]))
+    while not frontera.isEmpty():               # vemos si la frontera esta vacia
+        nodoActual, camino = frontera.pop()     # quitamos el nodo a tratar, el primero que ha entrado en este caso
+        if problem.isGoalState(nodoActual):     # si el nodo es un estado que se corresponde a uno de Sg (Goal)
+            return camino                       # retornamos como solucion el camino
+        nodosCerrados.add(nodoActual)           # si no, lo agregamos a los nodos cerrados
+        for hijo, direccion, coste in problem.getSuccessors(nodoActual):    # expandimos el nodo
+            if hijo not in nodosCerrados:                                   # Loop detection, vemos si ya lo hemos visto
+                nodosCerrados.add(hijo)                                     # si no esta dentro, lo agregamos a vistos
+                frontera.push((hijo, camino[0:len(camino)] + [direccion]))  # si no esta, lo agregamos a la frontera
     return []
 
     # util.raiseNotDefined()
