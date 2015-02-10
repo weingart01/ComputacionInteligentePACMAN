@@ -66,19 +66,15 @@ class ReflexAgent(Agent):
     distance = []
     foodList = currentGameState.getFood().asList()
     pacmanPos = list(successorGameState.getPacmanPosition())
-
     if action == 'Stop':
-        return -float("inf")
-
+        return -99999.99
     for ghostState in newGhostStates:
         if ghostState.getPosition() == tuple(pacmanPos) and ghostState.scaredTimer is 0:
-            return -float("inf") 
+            return -99999.99
+    #Non-Scared Ghost reaches the PACMAN
 
     for food in foodList:
-        x = -1*abs(food[0] - pacmanPos[0])
-        y = -1*abs(food[1] - pacmanPos[1])
-        distance.append(x+y) 
-
+        distance.append(-1*util.manhattanDistance(food,pacmanPos))
     return max(distance)
 
 def scoreEvaluationFunction(currentGameState):
@@ -109,10 +105,46 @@ class MultiAgentSearchAgent(Agent):
     self.depth = int(depth)
     self.pacmanIndex = 0
 
+
+
 class MinimaxAgent(MultiAgentSearchAgent):
     """
     Your minimax agent (question 2)
     """
+    def maximize(self, gameState, depth, agentIndex):
+        maxEval= float("-inf")
+        if gameState.isWin() or gameState.isLose() or depth > self.depth:
+            return self.evaluationFunction(gameState)
+        for action in gameState.getLegalActions(0):
+            successor = gameState.generateSuccessor(0, action)
+            tempEval = self.minimize(successor, depth, 1)
+            #maxEval = max(maxEval, tempEval)
+            if tempEval > maxEval:
+                maxEval = tempEval
+                maxAction = action
+        if depth == 1:
+            return maxAction
+        else:
+            return maxEval
+
+    def minimize(self, gameState, depth, agent):
+        minEval= float("inf")
+        numAgents = gameState.getNumAgents()
+        if gameState.isWin() or gameState.isLose():
+            return self.evaluationFunction(gameState)
+        for action in gameState.getLegalActions(agent):
+            successor = gameState.generateSuccessor(agent, action)
+            #miramos el ultimo nodo fantasma
+            if agent == numAgents - 1:
+                tempEval = self.maximize(successor, depth+1, 0)
+            else:
+                #Busca la min function de otro fantasma
+                tempEval = self.minimize(successor, depth, agent+1)
+            minEval = min(tempEval, minEval)
+            #if tempEval < minEval:
+            #    minEval = tempEval
+
+        return minEval
 
     def getAction(self, gameState):
         """
@@ -130,153 +162,79 @@ class MinimaxAgent(MultiAgentSearchAgent):
             Returns the total number of agents in the game
         """
         "*** YOUR CODE HERE ***"
-        curDepth = 0
-        currentAgentIndex = 0
-        val = self.value(gameState, currentAgentIndex, curDepth)
-        #print "Returning %s" % str(val)
-        return val[0]
-
-    def value(self, gameState, currentAgentIndex, curDepth): 
-        if currentAgentIndex >= gameState.getNumAgents():
-            currentAgentIndex = 0
-            curDepth += 1
-
-        if curDepth == self.depth:
-            return self.evaluationFunction(gameState)
-
-        if currentAgentIndex == self.pacmanIndex:
-            return self.maxValue(gameState, currentAgentIndex, curDepth)
-        else:
-            return self.minValue(gameState, currentAgentIndex, curDepth)
-        
-    def minValue(self, gameState, currentAgentIndex, curDepth):
-        v = ("unknown", float("inf"))
-        
-        if not gameState.getLegalActions(currentAgentIndex):
-            return self.evaluationFunction(gameState)
-
-        for action in gameState.getLegalActions(currentAgentIndex):
-            if action == "Stop":
-                continue
-            
-            retVal = self.value(gameState.generateSuccessor(currentAgentIndex, action), currentAgentIndex + 1, curDepth)
-            if type(retVal) is tuple:
-                retVal = retVal[1] 
-
-            vNew = min(v[1], retVal)
-
-            if vNew is not v[1]:
-                v = (action, vNew) 
-        
-        #print "Returning minValue: '%s' for agent %d" % (str(v), currentAgentIndex)
-        return v
-
-    def maxValue(self, gameState, currentAgentIndex, curDepth):
-        v = ("unknown", -1*float("inf"))
-        
-        if not gameState.getLegalActions(currentAgentIndex):
-            return self.evaluationFunction(gameState)
-
-        for action in gameState.getLegalActions(currentAgentIndex):
-            if action == "Stop":
-                continue
-            
-            retVal = self.value(gameState.generateSuccessor(currentAgentIndex, action), currentAgentIndex + 1, curDepth)
-            if type(retVal) is tuple:
-                retVal = retVal[1] 
-
-            vNew = max(v[1], retVal)
-
-            if vNew is not v[1]:
-                v = (action, vNew) 
-        
-        #print "Returning maxValue: '%s' for agent %d" % (str(v), currentAgentIndex)
-        return v
-
+        maxAction = self.maximize(gameState, 1, 0)
+        return self.maximize(gameState,1,0)
 
 class AlphaBetaAgent(MultiAgentSearchAgent):
     """
     Your minimax agent with alpha-beta pruning (question 3)
     """
-    def getAction(self, gameState):
-        curDepth = 0
-        currentAgentIndex = 0
-        alpha = -1*float("inf")
-        beta = float("inf")
-        val = self.value(gameState, currentAgentIndex, curDepth, alpha, beta)
-        print "Returning %s" % str(val)
-        return val[0]
-
-    def value(self, gameState, currentAgentIndex, curDepth, alpha, beta):
-        if currentAgentIndex >= gameState.getNumAgents():
-            currentAgentIndex = 0
-            curDepth += 1
-
-        if curDepth == self.depth or gameState.isWin() or gameState.isLose():
+    def max_prune(self, gameState, depth, agentIndex, alpha, beta):
+        # init the variables
+        maxEval= float("-inf")
+        # if this is a leaf node with no more actions, return the evaluation function at this state
+        if gameState.isWin() or gameState.isLose():
             return self.evaluationFunction(gameState)
-
-        if currentAgentIndex == self.pacmanIndex:
-            return self.maxValue(gameState, currentAgentIndex, curDepth, alpha, beta)
+        # otherwise, for evert action, find the successor, and run the minimize function on it. when a value
+        # is returned, check to see if it's a new max value (or if it's bigger than the minimizer's best, then prune)
+        for action in gameState.getLegalActions(0):
+            successor = gameState.generateSuccessor(0, action)
+        # run minimize (the minimize function will stack ghost responses)
+            tempEval = self.min_prune(successor, depth, 1, alpha, beta)
+        #prune
+            if tempEval > beta:
+                return tempEval
+            if tempEval > maxEval:
+                maxEval = tempEval
+                maxAction = action
+            #reassign alpha
+            alpha = max(alpha, maxEval)
+            # if this is the first depth, then we're trying to return an ACTION to take. otherwise, we're returning a number. This
+            # could theoretically be a tuple with both, but i'm lazy.
+        if depth == 1:
+            return maxAction
         else:
-            return self.minValue(gameState, currentAgentIndex, curDepth, alpha, beta)
+            return maxEval
 
-    def minValue(self, gameState, currentAgentIndex, curDepth, alpha, beta):
-        v = ("unknown", float("inf"))
-
-        if not gameState.getLegalActions(currentAgentIndex):
+    def min_prune(self, gameState, depth, agentIndex, alpha, beta):
+        minEval= float("inf")
+        # we don't know how many ghosts there are, so we have to run minimize
+        # on a general case based off the number of agents
+        numAgents = gameState.getNumAgents()
+        # if a leaf node, return the eval function!
+        if gameState.isWin() or gameState.isLose():
             return self.evaluationFunction(gameState)
+        # for every move possible by this ghost
+        for action in gameState.getLegalActions(agentIndex):
+            successor = gameState.generateSuccessor(agentIndex, action)
+        # if this is the last ghost to minimize
+            if agentIndex == numAgents - 1:
+            # if we are at our depth limit, return the eval function
+                if depth == self.depth:
+                    tempEval = self.evaluationFunction(successor)
+                else:
+                    #maximize!
+                    tempEval = self.max_prune(successor, depth+1, 0, alpha, beta)
+                    # pass this state on to the next ghost
+            else:
+                tempEval = self.min_prune(successor, depth, agentIndex+1, alpha, beta)
+            #prune
+            if tempEval < alpha:
+                return tempEval
+            if tempEval < minEval:
+                minEval = tempEval
+                minAction = action
+            # new beta
+            beta = min(beta, minEval)
+        return minEval
 
-        for action in gameState.getLegalActions(currentAgentIndex):
-            if action == "Stop":
-                continue
-
-            retVal = self.value(gameState.generateSuccessor(currentAgentIndex, action), currentAgentIndex + 1, curDepth, alpha, beta)
-            if type(retVal) is tuple:
-                retVal = retVal[1]
-
-            vNew = min(v[1], retVal)
-
-            if vNew is not v[1]:
-                v = (action, vNew)
-
-            if v[1] <= alpha:
-                #print "Pruning with '%s' from min since alpha is %2.2f" % (str(v), alpha)
-                return v
-
-            beta = min(beta, v[1])
-            #print "Setting beta to %2.2f" % beta
-
-        #print "Returning minValue: '%s' for agent %d" % (str(v), currentAgentIndex)
-        return v
-
-    def maxValue(self, gameState, currentAgentIndex, curDepth, alpha, beta):
-        v = ("unknown", -1*float("inf"))
-
-        if not gameState.getLegalActions(currentAgentIndex):
-            return self.evaluationFunction(gameState)
-
-        for action in gameState.getLegalActions(currentAgentIndex):
-            if action == "Stop":
-                continue
-
-            retVal = self.value(gameState.generateSuccessor(currentAgentIndex, action), currentAgentIndex + 1, curDepth, alpha, beta)
-            if type(retVal) is tuple:
-                retVal = retVal[1]
-
-            vNew = max(v[1], retVal)
-
-            if vNew is not v[1]:
-                v = (action, vNew)
-
-            if v[1] >= beta:
-                #print "Pruning with '%s' from min since beta is %2.2f" % (str(v), beta)
-                return v
-
-            alpha = max(alpha, v[1])
-            #print "Setting alpha to %2.2f" % alpha
-
-        #print "Returning maxValue: '%s' for agent %d" % (str(v), currentAgentIndex)
-        return v
+    def getAction(self, gameState):
+        """
+          Returns the minimax action using self.depth and self.evaluationFunction
+        """
+        "*** YOUR CODE HERE ***"
+        maxAction = self.max_prune(gameState, 1, 0, float("-inf"), float("inf"))
+        return maxAction
 
  
 class ExpectimaxAgent(MultiAgentSearchAgent):
