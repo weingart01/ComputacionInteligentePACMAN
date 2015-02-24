@@ -45,16 +45,29 @@ class ValueIterationAgent(ValueEstimationAgent):
 
         # Write value iteration code here
         "*** YOUR CODE HERE ***"
+
         for k in range(0,self.iterations):
+            # creamos unos values auxiliares para no solapar los que
+            # ya utilizamos para el computo
             new_values = util.Counter()
+            # obtenemos los estados
             states = self.mdp.getStates()
+            # para cada estado...
             for state in states:
+                # si no es un estado final, por que no tiene acciones
                 if not self.mdp.isTerminal(state):
+                    # obtenemos las acciones
                     actions = self.mdp.getPossibleActions(state)
+                    # iniciamos el value
                     value = float("-inf")
+                    # para cada accion posible
                     for action in actions:
+                        # obtenemos el mejor valor
                         value = max(value, self.computeQValueFromValues(state, action))
+                    # una vez hemos dado con el mejor valor, lo guardamos en el auxiliar
+                    # con el correspondiente a su estado (indice)
                     new_values[state] = value
+            # una vez hemos obtenido todos los valores, actualizamos el diccionario original
             self.values = new_values
 
     def getValue(self, state):
@@ -69,7 +82,8 @@ class ValueIterationAgent(ValueEstimationAgent):
           value function stored in self.values.
         """
         "*** YOUR CODE HERE ***"
-        Qvalue = 0
+        Qvalue = 0.0
+        # aplicamos la formula iterativa que hemos visto en teoria - ValueIteration
         for next_state, probability in self.mdp.getTransitionStatesAndProbs(state,action):
             Qvalue += probability * (self.mdp.getReward(state,action,next_state) + self.discount * self.values[next_state])
         return Qvalue
@@ -85,20 +99,31 @@ class ValueIterationAgent(ValueEstimationAgent):
           terminal state, you should return None.
         """
         "*** YOUR CODE HERE ***"
+        # si es terminal, retornamos Nada, por que no tiene acciones en el estado terminal
         if self.mdp.isTerminal(state):
             return None
+        # sino
         else:
+            # obtenemos las posibles acciones
             actions = self.mdp.getPossibleActions(state)
+            # *** probar *** aseguramos que cualquier estado no terminal, tenga acciones
             if len(actions) == 0:
                 return None
             else:
+                # iniciamos el value
                 Value = -float('inf')
+                # iniciamos la politica
                 policy = None
                 for action in actions:
+                    # obtenemos el Qvalue
                     Qvalue = self.computeQValueFromValues(state,action)
+                    # si el Qvalue es mejor
                     if Qvalue > Value:
+                        # guardamos el mejor qvalue que encontramos
                         Value = Qvalue
+                        # agregamos la accion a la politica
                         policy = action
+                # devolvemos la politica
                 return policy
 
     def getPolicy(self, state):
