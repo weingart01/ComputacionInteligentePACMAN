@@ -20,10 +20,19 @@
 # value iteration.
 
 def question2():
+    # Al disminuir el answerNoise(alpha) el estado posee la politica posee la totalidad del valor del siguiente estado
+    # sin ningun tipo de distorsion, asi pues tras 5 iteraciones al estado (1,1) le consta que se obtiene 
+    # mejor puntuacion si la politica es east
     answerDiscount = 0.9
     answerNoise = 0.01
     return answerDiscount, answerNoise
 
+# Segun regulamos los parametros nuestras politicas cambian...
+# si aumentamos LivingReward premiamos la lejania 
+# a las casillas mas lejanas por lo que si queremos usar el camino corto deberemos premiar negativamente para 
+# que el recorrido sea proximo a los estados bahia(con la peor puntuacion).
+# Como hemos dicho anteriormente la regulacion del ruido nos permite que los valores de los estados se propaguen mejor
+# entonces contra mas bajo sea nos permitira dar antes con un posible estado lejano con mejor puntuacion
 def question3a():
     answerDiscount = 0.8
     answerNoise = 0.2
