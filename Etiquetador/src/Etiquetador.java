@@ -16,8 +16,10 @@ public class Etiquetador {
 
     /**
      * @param args the command line arguments
+     * @throws java.io.FileNotFoundException
+     * @throws java.io.UnsupportedEncodingException
      */
-    public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
+    public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException, IOException {
         // TODO code application logic here
         /* Si el argumento que enviamos al programa no es el adecuado, no podemos
          * realizar el etiquetado, por lo cual damos un mensaje de error. */
@@ -35,7 +37,7 @@ public class Etiquetador {
         leerCorpus(direccion);
         HashMap< String, HashMap< String, Integer>> corpus2 = parserCorpus("./lexic.txt");
         etiquetarTexto(archivo);
-        comparacionResultados(archivo + "_Etiquetado", texto_correcto);
+        compararResultados(archivo + "_Etiquetado", texto_correcto);
     }
 
     static void leerCorpus(String path) {
@@ -62,40 +64,48 @@ public class Etiquetador {
                 palabra = tokens[0].toLowerCase();
                 /* Cogemos la categoria a la que corresponde la palabra. */
                 categoria = tokens[1];
+                /* Si el mapa contiene a la palabra... */
                 if (corpus.containsKey(palabra)) {
-                    HashMap<String, Integer> viejo = corpus.get(palabra);
-                    if (viejo.containsKey(categoria)) {
-                        nveces = viejo.get(categoria);
+                    HashMap<String, Integer> categoria_existente = corpus.get(palabra);
+                    /* Si la palabra posee esa categoria...*/
+                    if (categoria_existente.containsKey(categoria)) {
+                        /* obtenemos el numero de veces que aparece esa palabra */
+                        nveces = categoria_existente.get(categoria);
+                        /* y lo aumentamos */
                         ++nveces;
-                        viejo.put(categoria, nveces);
+                        /* para volver a guardarlo en el mapa. */
+                        categoria_existente.put(categoria, nveces);
                     } else {
-                        viejo.put(categoria, 1);
+                        /* y no posee la categoria, la creamos, y le ponemos el 
+                         * calor de 1, ya que es el primero que hemos visto. */
+                        categoria_existente.put(categoria, 1);
                     }
                 } else {
-                    HashMap<String, Integer> nuevo = new HashMap<String, Integer>();
-                    nuevo.put(tokens[1], 1);
-                    corpus.put(tokens[0], nuevo);
+                    HashMap<String, Integer> categoria_nueva = new HashMap<String, Integer>();
+                    categoria_nueva.put(tokens[1], 1);
+                    corpus.put(tokens[0], categoria_nueva);
                 }
             }
-			try {
-            	escribircorpus(corpus);
-        	} catch (UnsupportedEncodingException ex) {
-            	Logger.getLogger(Etiquetador.class.getName()).log(Level.SEVERE, null, ex);
-        	} catch (FileNotFoundException ex) {
-            	Logger.getLogger(Etiquetador.class.getName()).log(Level.SEVERE, null, ex);
-        	} catch (IOException ex) {
-            	Logger.getLogger(Etiquetador.class.getName()).log(Level.SEVERE, null, ex);
-        	}
-
-        } catch (IOException e) {
+	try {
+            escribirCorpus(corpus);
+            
+        /* Las siguientes lineas se corresponden con los "try and catch" que tenemos
+         * en el programa. */
+        } catch (UnsupportedEncodingException ex) {
+            Logger.getLogger(Etiquetador.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(Etiquetador.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(Etiquetador.class.getName()).log(Level.SEVERE, null, ex);
         }
-
-        
-    }
+    } catch (IOException e) { }    
+}
 
     static void etiquetarTexto(String path) throws FileNotFoundException, UnsupportedEncodingException {
         HashMap< String, HashMap<String, Integer>> corpus = parserCorpus("./lexic.txt");
+        /* Creamos un File para la version etiquetada. */
         File fichero = new File(path + "_Etiquetado");
+        /* Si el fichero existe, lo borramos. */
         if (fichero.exists()) {
             fichero.delete();
         }
@@ -174,29 +184,28 @@ public class Etiquetador {
             }
             System.out.println("Numero de duplicados : " + mas + ". Palabras encontradas en corpus : " + contador);
             Fescribe.close();
-        } catch (IOException e) {
-        }
-
+        } catch (IOException e) {}
     }
 
-    static double comparacionResultados(String path1, String path2) {
+    /* Punto 3 de la practica, en el cual comparamos los datos obtenidos en el
+     * test. */
+    static double compararResultados(String direccion1, String direccion2) {
         double acertadas = 0;
         double totales = 0;
         double noaparece = 0;
         double fallo = 0;
         try {
-            BufferedReader original = new BufferedReader(new InputStreamReader(new FileInputStream(path1), "ISO-8859-1"));
-            BufferedReader correcto = new BufferedReader(new InputStreamReader(new FileInputStream(path2), "ISO-8859-1"));
-            String line1;
-            String line2;
+            BufferedReader original = new BufferedReader(new InputStreamReader(new FileInputStream(direccion1), "ISO-8859-1"));
+            BufferedReader correcto = new BufferedReader(new InputStreamReader(new FileInputStream(direccion2), "ISO-8859-1"));
+            String linea_original, linea_correcta;
 
-            while ((line1 = original.readLine()) != null && (line2 = correcto.readLine()) != null) {
-                String[] tokens1 = line1.split("\t");
-                String[] tokens2 = line2.split("\t");
-                if (tokens1[0].equalsIgnoreCase(tokens2[0]) && tokens1[1].equals(tokens2[1])) {
+            while ((linea_original = original.readLine()) != null && (linea_correcta = correcto.readLine()) != null) {
+                String[] tokens_original = linea_original.split("\t");
+                String[] tokens_correctos = linea_correcta.split("\t");
+                if (tokens_original[0].equalsIgnoreCase(tokens_correctos[0]) && tokens_original[1].equals(tokens_correctos[1])) {
                     ++acertadas;
                 } else {
-
+                    /*  */
                     if (!tokens1[0].equalsIgnoreCase(tokens2[0]) && tokens1[1].equals(tokens2[1])) {
                         System.out.println("Error \n");
                         System.out.println("Palabra1: " + tokens1[0] + ", Cat : " + tokens1[1] + ". Palabra2: " + tokens2[0] + ", Cat : " + tokens2[1] + "\n");
@@ -220,76 +229,93 @@ public class Etiquetador {
         return 0;
     }
 
-    static void escribircorpus(HashMap< String, HashMap< String, Integer>> corpus) throws UnsupportedEncodingException, FileNotFoundException, IOException {
+    static void escribirCorpus(HashMap< String, HashMap< String, Integer>> corpus) throws UnsupportedEncodingException, FileNotFoundException, IOException {
         File fichero = new File("./lexic.txt");
+        /* Si el fichero existe, lo borramos. */
         if (fichero.exists()) {
             fichero.delete();
         }
-        try (BufferedWriter Fescribe = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("./lexic.txt", true), "utf-8"))) {
-            for (Map.Entry e2 : corpus.entrySet()) {
-                HashMap<String, Integer> viejo = (HashMap<String, Integer>) e2.getValue();
-                for (Map.Entry e : viejo.entrySet()) {
-                    Fescribe.write((String) e2.getKey() + "\t" + (String) e.getKey() + "\t" + (Integer) e.getValue() + "\r\n");
+        try (
+            /* Creamos el bufer que se encargara de escribir en el nuevo fichero. */
+            BufferedWriter escritor = new BufferedWriter(new OutputStreamWriter(
+                    new FileOutputStream("./lexic.txt", true), "utf-8"))) {
+            /* Recorremos todas las palabras que tenemos mapeadas. */
+            for (Map.Entry palabra : corpus.entrySet()) {
+                /* Obtenemos la categoria y sus concurrencias. */
+                HashMap<String, Integer> categoria = (HashMap<String, Integer>) palabra.getValue();
+                for (Map.Entry e : categoria.entrySet()) {
+                    /* Los escribimos segun el patron dado... 
+                     * PALABRA\t CATEGORIA\t NVECES\r\n */
+                    escritor.write((String) palabra.getKey() + "\t" + (String) e.getKey() + "\t" + (Integer) e.getValue() + "\r\n");
                 }
             }
         }
     }
 
-    static HashMap< String, HashMap< String, Integer>> parserCorpus(String path) throws FileNotFoundException {
+    static HashMap< String, HashMap< String, Integer>> parserCorpus(String direccion) throws FileNotFoundException {
+        /* Creamos una tabla de hash */
         HashMap< String, HashMap< String, Integer>> corpus = new HashMap<String, HashMap<String, Integer>>();
-        String line;
-        String palabra;
-        String categoria;
-        int veces;
+        String linea, palabra, categoria;
+        int nveces;
         try {
-            BufferedReader stop = new BufferedReader(new FileReader(path));
-            while ((line = stop.readLine()) != null) {
-                String[] tokens = line.split("\t");
+            /* Creamos el bufer de lectura */
+            BufferedReader fichero = new BufferedReader(new FileReader(direccion));
+            while ((linea = fichero.readLine()) != null) {
+                /* Realizamos el split de la linea que estamos viendo. */
+                String[] tokens = linea.split("\t");
+                /* Cogemos la palabra */
                 palabra = tokens[0];
+                /* la categoria */
                 categoria = tokens[1];
-                veces = Integer.parseInt(tokens[2]);
+                /* y la concurrencia */
+                nveces = Integer.parseInt(tokens[2]);
+                /* Si el corpus ya contiene la palabra */
                 if (corpus.containsKey(palabra)) {
-                    HashMap<String, Integer> viejo = corpus.get(palabra);
-                    viejo.put(categoria, veces);
+                    HashMap<String, Integer> actual = corpus.get(palabra);
+                    actual.put(categoria, nveces);
                 } else {
+                    /* sino, lo creamos y la insertamos en el corpus */
                     HashMap<String, Integer> nuevo = new HashMap<String, Integer>();
-                    nuevo.put(categoria, veces);
+                    nuevo.put(categoria, nveces);
                     corpus.put(palabra, nuevo);
                 }
             }
 
-        } catch (IOException e) {
-        }
+        } catch (IOException e) {}
         return corpus;
     }
 
     static String corregir(String word, HashMap< String, HashMap< String, Integer>> corpus) {
-
-        Iterator it2 = corpus.entrySet().iterator();
-        String palabra;
-
-        while (it2.hasNext()) {
-            Map.Entry e2 = (Map.Entry) it2.next();
-            palabra = (String) e2.getKey();
+        /* Buscamos la palabra */
+        Iterator it = corpus.entrySet().iterator();
+        while (it.hasNext()) {
+            /* Cargamos la tabla */
+            Map.Entry tabla = (Map.Entry) it.next();
+            String palabra = (String) tabla.getKey();
             boolean encontrado = true;
+            /* Vemos si la palabra a corregir es igual a la que tenemos en la tabla, segun su tamaño. */
             if (word.length() == palabra.length()) {
                 int i = 0;
-                boolean diferente = false;
+                boolean es_diferente = false;
+                /* Verificamos que la palabra sea igual que la correcta, caracter
+                 * por caracter. */
                 while (i < word.length() && encontrado) {
                     if (palabra.charAt(i) != word.charAt(i)) {
-                        if (diferente) {
+                        if (es_diferente) {
                             encontrado = false;
                         } else {
-                            diferente = true;
+                            es_diferente = true;
                         }
                     }
                     ++i;
                 }
+                /* Si lo hemos encontrado, devolvemos la palabra. */
                 if (encontrado) {
                     return palabra;
                 }
             }
         }
+        /* Si no hemos encontrado nada, devolvemos un elemento nulo. */
         return null;
     }
 }
