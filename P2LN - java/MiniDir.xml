@@ -1,0 +1,3176 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<minidir lang="Spanish" version="2.0" date="2004/02/13">
+
+<lexelt item="actuar" pos="VM">
+
+<sense id="actuar.1" definition="Realizar actos, ejercer funciones propias de su cargo o naturaleza" used="yes">
+<example text="hay que actuar"/>
+<example text="la fiscalía actuó contra el terrorista"/>
+<example text="desde la muerte de su padre, el hermano mayor actuó como cabeza de familia"/>
+<example text="actuar legalmente"/>
+<example text="los jugadores suramericanos que actúan en España"/>
+<collocation text="actuar en defensa propia"/>
+<synset wordnet="1.5" id="01341700v"/>
+<synset wordnet="1.5" id="00618376v"/>
+</sense>
+
+<sense id="actuar.2" definition="Comportarse de una manera determinada" used="yes">
+<example text="ha actuado bien"/>
+<example text="actuó sin lógica"/>
+<example text="tiene unos raros modos de actuar"/>
+<example text="se empeña en actuar de forma cicatera"/>
+<synonym text="comportarse"/>
+<synonym text="conducirse"/>
+<synset wordnet="1.5" id="00007021v"/>
+</sense>
+
+<sense id="actuar.3" definition="Representar o interpretar un papel en una obra, un tema en un espectáculo musical" used="yes">
+<example text="los actores han actuado de manera brillante"/>
+<example text="el cantautor actúa esta noche"/>
+<synset wordnet="1.5" id="00983780v"/>
+<synset wordnet="1.5" id="00983496v"/>
+</sense>
+
+<sense id="actuar.4" definition="Producir efectos" used="no">
+<example text="la medicina actuó rápidamente"/>
+<example text="esta pastilla actúa sobre la grasa"/>
+<synset wordnet="1.5" id="01430028v"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="apoyar" pos="VM-[en]">
+
+<sense id="apoyar.1" definition="Poner o descansar una cosa o persona sobre otra que la sostiene" used="no">
+<example text="apoyó la cabeza sobre su hombro"/>
+<example text="se apoyó en la mesa"/>
+<synonym text="reposar"/>
+<synonym text="descansar"/>
+<synonym text="reclinar"/>
+<synset wordnet="1.5" id="00437587v"/>
+<synset wordnet="1.5" id="00694239v"/>
+<synset wordnet="1.5" id="00864392v"/>
+<synset wordnet="1.5" id="00924252v"/>
+</sense>
+
+<sense id="apoyar.2" definition="Ayudar, defender o respaldar a alguien o algo" used="yes">
+<example text="lo ha apoyado siempre en sus negocios"/>
+<example text="el hermano mayor apoyó a la familia"/>
+<example text="la familia se apoyó en el hermano mayor"/>
+<example text="es una ley para apoyar los presupuestos"/>
+<synonym text="ayudar"/>
+<synonym text="respaldar"/>
+<synonym text="favorecer"/>
+<synset wordnet="1.5" id="01446559v"/>
+<synset wordnet="1.5" id="01493159v"/>
+<synset wordnet="1.5" id="01389297v"/>
+<synset wordnet="1.5" id="00503307v"/>
+<synset wordnet="1.5" id="00693130v"/>
+</sense>
+
+<sense id="apoyar.3" definition="Sostener o confirmar una opinión o una teoría" used="yes">
+<example text="el presidente apoya las propuestas del minstro"/>
+<example text="la dirección apoya este planteamiento"/>
+<synonym text="corroborar"/>
+<synonym text="confirmar"/>
+<synset wordnet="1.5" id="00453595v"/>
+<synset wordnet="1.5" id="00374169v"/>
+<synset wordnet="1.5" id="00133686v"/>
+</sense>
+
+<sense id="apoyar.4" definition="Fundar o basar una cosa en otra, especialmente una doctrina u opinión" used="no">
+<example text="apoya sus hipótesis en la teoría de X"/>
+<example text="estas hipótesis que se apoyan en la teoría de X"/>
+<example text="¿en qué teoría apoyas tu juicio?"/>
+<example text="su campaña se apoya sólo en la presencia del líder"/>
+<synonym text="fundamentar"/>
+<synonym text="basar"/>
+<synset wordnet="1.5" id="00133932v"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="apuntar" pos="VM-[a, hacia]">
+
+<mwfiltered text="apuntar alto"/>
+<mwfiltered text="apuntarse un tanto"/>
+<mwfiltered text="apuntar y no dar"/>
+
+<sense id="apuntar.1" definition="Dirigir un arma hacia algo o alguien" used="yes">
+<example text="lo apuntaba con la pistola"/>
+<example text="apunta bien y luego dispara"/>
+<synonym text="encañonar"/>
+<synset wordnet="1.5" id="00654144v"/>
+</sense>
+
+<sense id="apuntar.2" definition="Señalar, hacer referencia o indicar un sitio, una persona o una cosa" used="yes">
+<example text="el guía apuntaba con el índice hacia el ayuntamiento"/>
+<example text="todos los indicios apuntan a que los ladrones habían recibido el encargo"/>
+<example text="lo apuntó con la cámara"/>
+<synonym text="indicar"/>
+<collocation text="apuntar la posibilidad"/>
+<synset wordnet="1.5" id="00519176v"/>
+<synset wordnet="1.5" id="00572428v"/>
+</sense>
+
+<sense id="apuntar.3" definition="Tomar nota" used="no">
+<example text="apuntó su dirección en la libreta"/>
+<synonym text="anotar"/>
+<synset wordnet="1.5" id="00576347v"/>
+</sense>
+
+<sense id="apuntar.4" definition="Inscribir o registrar el nombre de una persona o de una asociación" used="no">
+<example text="apuntó a su hijo en el censo"/>
+<example text="se apuntó a un gimnasio"/>
+<example text="se ha apuntado mucha gente al paro"/>
+<synonym text="inscribir"/>
+<synonym text="registrar"/>
+<synset wordnet="1.5" id="01399163v"/>
+</sense>
+
+<sense id="apuntar.5" definition="Insinuar, sugerir alguien una cosa" used="yes">
+<example text="Juan le apuntó que debería pedir disculpas"/>
+<example text="ella apuntó que era necesario"/>
+<example text="el periodista no apunta ninguna otra razón"/>
+<example text="los especialistas apuntaron que estaba trastocado"/>
+<example text="apuntaron algunas ideas"/>
+<synonym text="comentar"/>
+<synonym text="sugerir"/>
+<synset wordnet="1.5" id="00492814v"/>
+<synset wordnet="1.5" id="00538064v"/>
+<synset wordnet="1.5" id="00575843v"/>
+</sense>
+
+<sense id="apuntar.6" definition="Decir" used="yes">
+<example text="&quot;Estas cifras son imposibles&quot; - apuntó el economista"/>
+<example text="&quot;Tampoco hay que hacerse ilusiones&quot; - apunta el director"/>
+<synonym text="declarar"/>
+<synonym text="opinar"/>
+<synset wordnet="1.5" id="00492899v"/>
+</sense>
+
+<sense id="apuntar.7" definition="Recordar el texto el apuntador a los actores, en teatro." used="no">
+<example text="el actor no ha necesitado que le apunten el texto"/>
+<synset wordnet="1.5" id="00492814v"/>
+</sense>
+
+<sense id="apuntar.8" definition="Empezar a manifestarse algo o las cualidades de alguien" used="no">
+<example text="ya apunta el día"/>
+<example text="el niño ya apunta más aptitudes"/>
+<synset wordnet="1.5" id="00207968v"/>
+</sense>
+
+<sense id="apuntar.9" definition="Unirse alguien a las actividades de un grupo" used="no">
+<example text="se apunta a todos los conciertos a los que vamos"/>
+<example text="los países se apuntaron a la nueva economía"/>
+<synonym text="incorporarse"/>
+<synonym text="incluirse"/>
+<synset wordnet="1.5" id="00619057v"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="arte" pos="NCCS">
+
+<mwfiltered text="arte y ensayo"/>
+<mwfiltered text="artes marciales"/>
+<mwfiltered text="bellas artes"/>
+<mwfiltered text="comedia del arte"/>
+<mwfiltered text="con arte"/>
+<mwfiltered text="malas artes"/>
+<mwfiltered text="por amor al arte"/>
+<mwfiltered text="por arte de magia"/>
+<mwfiltered text="séptimo arte"/>
+<mwfiltered text="tener arte y parte"/>
+<mwfiltered text="(verso de) arte mayor"/>
+<mwfiltered text="(verso de) arte menor"/>
+
+<sense id="arte.1" definition="Actividad humana que consiste en la creación de obras a través de la fantasía o la imitación de la realidad con una finalidad estética" used="yes">
+<example text="el arte de otras épocas nos legó testimonios de lo que se entendía por belleza"/>
+<example text="comprar arte a precios razonables"/>
+<collocation text="arte abstracto"/>
+<collocation text="arte académico"/>
+<collocation text="arte antiguo"/>
+<collocation text="arte barroco"/>
+<collocation text="arte bizantino"/>
+<collocation text="arte callejero"/>
+<collocation text="arte cinematográfico"/>
+<collocation text="arte cinético"/>
+<collocation text="arte conceptual"/>
+<collocation text="arte contemporáneo"/>
+<collocation text="arte de vanguardia"/>
+<collocation text="arte dramático"/>
+<collocation text="arte escenográfico"/>
+<collocation text="arte figurativo"/>
+<collocation text="arte gótico"/>
+<collocation text="arte literario"/>
+<collocation text="arte moderno"/>
+<collocation text="arte occidental"/>
+<collocation text="arte oriental"/>
+<collocation text="arte plástico"/>
+<collocation text="arte prehistórico"/>
+<collocation text="arte primitivo"/>
+<collocation text="arte religioso"/>
+<collocation text="arte románico"/>
+<collocation text="arte rupestre"/>
+<collocation text="arte sacro"/>
+<collocation text="artes aplicadas"/>
+<collocation text="artes circenses"/>
+<collocation text="artes decorativas"/>
+<collocation text="artes gráficas"/>
+<collocation text="artes plásticas"/>
+<collocation text="artes visuales"/>
+<collocation text="galería de arte"/>
+<collocation text="historia del arte"/>
+<collocation text="obra de arte"/>
+<collocation text="sala de arte"/>
+<synset wordnet="1.5" id="00518008n"/>
+<synset wordnet="1.5" id="02980374n"/>
+</sense>
+
+<sense id="arte.2" definition="Destreza o habilidad de una persona en una actividad o conducta determinada" used="yes">
+<example text="tiene mucho arte bailando"/>
+<example text="desplegó todo su arte para convencerle"/>
+<synonym text="habilidad"/>
+<synonym text="destreza"/>
+<synonym text="maña"/>
+<synonym text="maestría"/>
+<synset wordnet="1.5" id="03849803n"/>
+<synset wordnet="1.5" id="03850627n"/>
+</sense>
+
+<sense id="arte.3" definition="Conjunto de técnicas y conocimientos de una disciplina o actividad" used="yes">
+<example text="el arte de la momificación"/>
+<example text="el arte de la esgrima"/>
+<synonym text="técnica"/>
+<collocation text="arte militar"/>
+</sense>
+
+<sense id="arte.4" definition="Aparato que sirve para pescar" used="no">
+<example text="el arrastre y el cerco son las artes más comunes y utilizadas"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="autoridad" pos="NCFS">
+
+<mwfiltered text="argumento de autoridad"/>
+<mwfiltered text="principio de autoridad"/>
+
+<sense id="autoridad.1" definition="Poder o capacidad que tiene una persona para ser obedecida o respetada" used="yes">
+<example text="la autoridad del poder ejecutivo"/>
+<example text="la autoridad de un juez"/>
+<example text="no tiene autoridad con sus hijos"/>
+<synonym text="poder"/>
+<synonym text="dominio"/>
+<synonym text="supremacía"/>
+<synonym text="mando"/>
+<synset wordnet="1.5" id="03599458n"/>
+<synset wordnet="1.5" id="08727205n"/>
+</sense>
+
+<sense id="autoridad.2" definition="Persona u organismo que goza de poder o mando debido al cargo público que ostenta" used="yes">
+<example text="las autoridades islámicas"/>
+<synonym text="mando"/>
+<collocation text="autoridad académica"/>
+<collocation text="autoridad administrativa"/>
+<collocation text="autoridad autonómica"/>
+<collocation text="autoridad civil"/>
+<collocation text="autoridad competente"/>
+<collocation text="autoridad eclesiástica"/>
+<collocation text="autoridad estatal"/>
+<collocation text="autoridad judicial"/>
+<collocation text="autoridad local"/>
+<collocation text="autoridad máxima"/>
+<collocation text="autoridad militar"/>
+<collocation text="autoridad monetaria"/>
+<collocation text="autoridad municipal"/>
+<collocation text="autoridad nacional"/>
+<collocation text="autoridad policial"/>
+<collocation text="autoridad política"/>
+<collocation text="autoridad religiosa"/>
+<collocation text="autoridad sanitaria"/>
+<collocation text="máxima autoridad"/>
+<collocation text="primera autoridad"/>
+<synset wordnet="1.5" id="05151482n"/>
+<synset wordnet="1.5" id="06314099n"/>
+<synset wordnet="1.5" id="05850058n"/>
+</sense>
+
+<sense id="autoridad.3" definition="Persona, institución u obra que goza de crédito y prestigio por su conocimiento o valor en una materia" used="no">
+<example text="es una autoridad en historia"/>
+<synonym text="personalidad"/>
+<collocation text="autoridad académica "/>
+<collocation text="autoridad máxima"/>
+<collocation text="máxima autoridad"/>
+<synset wordnet="1.5" id="05847047n"/>
+<synset wordnet="1.5" id="04222615n"/>
+</sense>
+
+<sense id="autoridad.4" definition="Crédito que se otorga a una persona, institución u obra por su conocimiento o valor en una materia" used="no">
+<example text="su obra goza de una autoridad indiscutible entre los expertos"/>
+<synonym text="prestigio"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="bajar" pos="VM">
+
+<mwfiltered text="bajar la bandera"/>
+<mwfiltered text="bajar la guardia"/>
+<mwfiltered text="bajar las orejas"/>
+<mwfiltered text="bajar los humos"/>
+<mwfiltered text="bajarse del burro"/>
+<mwfiltered text="bajarse los pantalones"/>
+
+<sense id="bajar.1" definition="Ir a un lugar situado más abajo" used="yes">
+<example text="bajé las escaleras en busca del portero del edificio"/>
+<example text="me bajo en Atocha"/>
+<example text="bajó de Panamá a Lima, subió a México y sintió la tentación de China"/>
+<example text="lo vi desde las escaleras que bajaban al bar"/>
+<example text="bajó del coche para disculparse y ocurrió el flechazo"/>
+<collocation text="bajar de las alturas"/>
+<synset wordnet="1.5" id="01124002v"/>
+<synset wordnet="1.5" id="01127961v"/>
+</sense>
+
+<sense id="bajar.2" definition="Descender a una posición inferior en un ranking" used="no">
+<example text="dos equipos no bajarán a Segunda División"/>
+<synonym text="descender"/>
+</sense>
+
+<sense id="bajar.3" definition="Disminuir la intensidad, el valor o la cantidad de algo" used="yes">
+<example text="estamos bajando los tipos de interés"/>
+<example text="la velocidad de destello bajará considerablemente"/>
+<example text="cuando se decidió a perder peso, bajó hasta los 95"/>
+<example text="las temperaturas bajarán un poco este fin de semana"/>
+<synonym text="disminuir"/>
+<collocation text="bajar el volumen"/>
+<collocation text="bajar la audiencia"/>
+<collocation text="bajar la voz"/>
+<collocation text="bajar las temperaturas"/>
+<collocation text="bajar los humos"/>
+<collocation text="bajar los precios"/>
+<synset wordnet="1.5" id="00159322v"/>
+<synset wordnet="1.5" id="00257401v"/>
+<synset wordnet="1.5" id="00123050v"/>
+<synset wordnet="1.5" id="00312611v"/>
+</sense>
+
+<sense id="bajar.4" definition="Poner en un lugar o posición inferiores" used="yes">
+<example text="yo no puedo subir y bajar la silla de ruedas en los bordillos"/>
+<example text="a las 21.30 horas este centro comercial bajó la persiana"/>
+<example text="bajaban muebles por una ventana"/>
+<example text="no bajó nunca la cabeza"/>
+<example text="es ese río que baja dos millones de metros cúbicos por segundo"/>
+<collocation text="bajar la cremallera"/>
+<collocation text="bajar la mirada"/>
+<collocation text="bajar la persiana"/>
+<collocation text="bajar la ventanilla"/>
+<synset wordnet="1.5" id="01124002v"/>
+<synset wordnet="1.5" id="01073610v"/>
+</sense>
+
+<sense id="bajar.5" definition="Descargar un programa, fichero o documento de un ordenador a otro a través de una red informática, generalmente Internet" used="no">
+<example text="para bajarte información hay que estarse horas"/>
+<example text="bajar una canción de Internet"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="banda" pos="NCFS">
+
+<mwfiltered text="a dos, tres, etc. bandas"/>
+<mwfiltered text="ancho de banda"/>
+<mwfiltered text="banda ancha"/>
+<mwfiltered text="banda de conducción"/>
+<mwfiltered text="banda de fluctuación"/>
+<mwfiltered text="banda de valencia"/>
+<mwfiltered text="banda magnética"/>
+<mwfiltered text="banda sonora"/>
+<mwfiltered text="cerrarse en banda"/>
+<mwfiltered text="coger por banda"/>
+<mwfiltered text="pillar por banda"/>
+
+<sense id="banda.1" definition="Cinta que se coloca cruzada sobre el pecho y que es señal de un cargo o una distinción" used="no">
+<example text="ha conseguido unas cuantas bandas, incluyendo la novedosa de Miss Internet "/>
+</sense>
+
+<sense id="banda.2" definition="Tira de tela u otro material" used="no">
+<example text="unas bandas de lona"/>
+<example text="unas bandas de velcro "/>
+<synonym text="tira"/>
+<synonym text="cinta"/>
+<synset wordnet="1.5" id="02109611n"/>
+<synset wordnet="1.5" id="03141951n"/>
+<synset wordnet="1.5" id="03154152n"/>
+</sense>
+
+<sense id="banda.3" definition="Conjunto de músicos que tocan juntos" used="yes">
+<example text="banda de jazz"/>
+<example text="banda de cornetas y tambores"/>
+<synonym text="grupo"/>
+<collocation text="banda militar"/>
+<collocation text="banda de música"/>
+<collocation text="banda de rock"/>
+<collocation text="banda musical"/>
+<synset wordnet="1.5" id="05221691n"/>
+<synset wordnet="1.5" id="05252694n"/>
+<synset wordnet="1.5" id="05253117n"/>
+</sense>
+
+<sense id="banda.4" definition="Grupo de personas que se une con fines comunes, especialmente delictivos" used="yes">
+<example text="banda de atracadores"/>
+<example text="banda de traficantes"/>
+<synonym text="grupo"/>
+<collocation text="banda armada"/>
+<collocation text="banda callejera"/>
+<collocation text="banda de delincuentes"/>
+<collocation text="banda juvenil"/>
+<collocation text="banda militar"/>
+<collocation text="banda organizada"/>
+<collocation text="banda paramilitar"/>
+<collocation text="banda terrorista"/>
+<collocation text="banda ultra"/>
+<synset wordnet="1.5" id="05249044n"/>
+<synset wordnet="1.5" id="05269792n"/>
+</sense>
+
+<sense id="banda.5" definition="Zona lateral de un objeto o lugar" used="yes">
+<example text="recorrió toda la banda derecha con el balón cosido a sus botas"/>
+<synonym text="margen"/>
+<synonym text="lateral"/>
+<synonym text="lado"/>
+<synonym text="costado"/>
+<collocation text="banda derecha"/>
+<collocation text="banda izquierda"/>
+<collocation text="línea de banda"/>
+<collocation text="saque de banda"/>
+<synset wordnet="1.5" id="05463429n"/>
+</sense>
+
+<sense id="banda.6" definition="Conjunto de animales que pertenecen a una misma especie y se desplazan en grupo" used="no">
+<example text="banda de gaviotas"/>
+<synonym text="bandada"/>
+<synonym text="manada"/>
+<synset wordnet="1.5" id="05138468n"/>
+</sense>
+
+<sense id="banda.7" definition="Intervalo de frecuencias entre dos puntos que permite transmitir una señal por medio de ondas electromagnéticas" used="yes">
+<example text="los radiofaros trabajan en la banda 280"/>
+<synonym text="frecuencia"/>
+<synonym text="banda de frecuencia"/>
+<synset wordnet="1.5" id="04143994n"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="bomba" pos="NCFS">
+
+<mwfiltered text="a prueba de bomba"/>
+<mwfiltered text="bomba de cobalto"/>
+<mwfiltered text="bomba de insulina"/>
+<mwfiltered text="bomba fétida"/>
+<mwfiltered text="bomba volcánica"/>
+<mwfiltered text="caer como una bomba"/>
+<mwfiltered text="hacer la bomba"/>
+<mwfiltered text="pasarlo bomba"/>
+
+<sense id="bomba.1" definition="Artefacto explosivo" used="no">
+<example text="los terroristas utilizaron una bomba para hacer estallar el coche del presidente"/>
+<synonym text="explosivo"/>
+<collocation text="amenaza de bomba"/>
+<collocation text="aviso de bomba"/>
+<collocation text="bomba atómica"/>
+<collocation text="bomba bacteriológica"/>
+<collocation text="bomba casera"/>
+<collocation text="bomba de hidrógeno"/>
+<collocation text="bomba de humo"/>
+<collocation text="bomba de mano"/>
+<collocation text="bomba de neutrones"/>
+<collocation text="bomba de relojería"/>
+<collocation text="bomba incendiaria"/>
+<collocation text="bomba lacrimógena"/>
+<collocation text="bomba lapa"/>
+<collocation text="bomba nuclear"/>
+<collocation text="bomba termonuclear"/>
+<collocation text="camión bomba"/>
+<collocation text="carta bomba"/>
+<collocation text="coche bomba"/>
+<collocation text="furgoneta bomba"/>
+<collocation text="paquete bomba"/>
+<synset wordnet="1.5" id="02172888n"/>
+</sense>
+
+<sense id="bomba.2" definition="Mecanismo que bombea fluidos" used="no">
+<example text="aspiraban el agua de la superficie con una bomba"/>
+<collocation text="bomba aspirante"/>
+<collocation text="bomba centrífuga"/>
+<collocation text="bomba de agua"/>
+<collocation text="bomba de aire"/>
+<collocation text="bomba de inyección"/>
+<collocation text="bomba hidráulica"/>
+<collocation text="bomba impelente"/>
+<synset wordnet="1.5" id="02946143n"/>
+</sense>
+
+<sense id="bomba.3" definition="Noticia sensacional o inesperada que causa sorpresa" used="no">
+<example text="la bomba política ha estallado por donde menos se esperaba"/>
+<synonym text="escándalo"/>
+<collocation text="bomba informativa"/>
+<collocation text="noticia bomba"/>
+<synset wordnet="1.5" id="04698101n"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="brillante" pos="AQCS">
+
+<sense id="brillante.1" definition="Que brilla" used="yes">
+<example text="pelo brillante"/>
+<example text="ojos brillantes"/>
+<synonym text="reluciente"/>
+<synonym text="luminoso"/>
+<synonym text="resplandeciente"/>
+<collocation text="brillante color"/>
+<collocation text="brillante luz"/>
+<collocation text="color brillante"/>
+<collocation text="luz brillante"/>
+<collocation text="ojos brillantes"/>
+<synset wordnet="1.5" id="00219316a"/>
+<synset wordnet="1.5" id="00220071a"/>
+<synset wordnet="1.5" id="00221034a"/>
+<synset wordnet="1.5" id="00221385a"/>
+<synset wordnet="1.5" id="00221761a"/>
+<synset wordnet="1.5" id="00299159a"/>
+<synset wordnet="1.5" id="01697658a"/>
+<synset wordnet="1.5" id="00299159a"/>
+<synset wordnet="1.5" id="00340981a"/>
+<synset wordnet="1.5" id="01383439a"/>
+<synset wordnet="1.5" id="00215174a"/>
+<synset wordnet="1.5" id="00221034a"/>
+<synset wordnet="1.5" id="01697658a"/>
+</sense>
+
+<sense id="brillante.2" definition="Que destaca por sus cualidades" used="yes">
+<example text="estudiante brillante"/>
+<example text="jugador brillante"/>
+<synonym text="admirable"/>
+<synonym text="excelente"/>
+<collocation text="brillante carrera"/>
+<collocation text="brillante ejercicio"/>
+<collocation text="brillante historial"/>
+<collocation text="brillante idea"/>
+<collocation text="brillante intervención"/>
+<collocation text="brillante labor"/>
+<collocation text="brillante porvenir"/>
+<collocation text="carrera brillante"/>
+<collocation text="diálogo brillante"/>
+<collocation text="futuro brillante"/>
+<collocation text="historial brillante"/>
+<collocation text="idea brillante"/>
+<collocation text="intervención brillante"/>
+<collocation text="momento brillante"/>
+<collocation text="porvenir brillante"/>
+<synset wordnet="1.5" id="00601428a"/>
+<synset wordnet="1.5" id="01014574a"/>
+<synset wordnet="1.5" id="00852797a"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="canal" pos="NCMS">
+
+<mwfiltered text="abrir en canal"/>
+<mwfiltered text="en canal"/>
+
+<sense id="canal.1" definition="Cauce artificial o natural que se utiliza para diversos usos, especialmente para la conducción del agua" used="yes">
+<example text="el canal de remo"/>
+<example text="el canal de pruebas hidrodinámicas de la Escuela de Ingenieros Navales de Madrid"/>
+<collocation text="canal de riego"/>
+<collocation text="canal olímpico"/>
+<collocation text="canal subterráneo"/>
+<synset wordnet="1.5" id="02342911n"/>
+<synset wordnet="1.5" id="02233055n"/>
+<synset wordnet="1.5" id="02452978n"/>
+<synset wordnet="1.5" id="03089454n"/>
+</sense>
+
+<sense id="canal.2" definition="Paso natural o artificial que comunica dos mares u océanos" used="yes">
+<example text="la costa francesa del canal de la Mancha"/>
+<synonym text="estrecho"/>
+<collocation text="canal de la Mancha"/>
+<collocation text="canal de navegación"/>
+<collocation text="canal de Panamá"/>
+<collocation text="canal de Suez "/>
+<synset wordnet="1.5" id="02233055n"/>
+<synset wordnet="1.5" id="05729203n"/>
+<synset wordnet="1.5" id="05680706n"/>
+</sense>
+
+<sense id="canal.3" definition="Conducto para desaguar el agua de lluvia de los tejados" used="no">
+<example text="los canales impedían que hubiera goteras en la casa"/>
+<synonym text="canalón"/>
+<synset wordnet="1.5" id="03114355n"/>
+</sense>
+
+<sense id="canal.4" definition="Banda de frecuencia en la que emite una emisora de televisión o de radio" used="yes">
+<example text="hay tres canales estatales"/>
+<example text="canal de noticias"/>
+<synonym text="emisora"/>
+<collocation text="cambiar de canal"/>
+<collocation text="canal autonómico"/>
+<collocation text="canal codificado"/>
+<collocation text="canal de pago"/>
+<collocation text="canal de televisión"/>
+<collocation text="canal especializado"/>
+<collocation text="canal nacional"/>
+<collocation text="canal privado"/>
+<collocation text="canal público"/>
+<collocation text="canal temático"/>
+<synset wordnet="1.5" id="04143847n"/>
+</sense>
+
+<sense id="canal.5" definition="Vaso del organismo animal o vegetal que contiene un fluido" used="no">
+<example text="canal hepático"/>
+<example text="canal semicircular del oído"/>
+<collocation text="canal excretor"/>
+<collocation text="canal hepático"/>
+<collocation text="canal lacrimal"/>
+<collocation text="canal semicircular"/>
+<collocation text="canal torácico"/>
+<synset wordnet="1.5" id="03623897n"/>
+</sense>
+
+<sense id="canal.6" definition="Medio o fuente de transmisión de información, energía, enfermedades, etc." used="yes">
+<example text="era un canal de difusión poco fiable"/>
+<example text="dos canales para la luz"/>
+<example text="el canal para el reconocimiento de la voz"/>
+<synonym text="medio"/>
+<synonym text="fuente"/>
+<collocation text="canal de difusión"/>
+<collocation text="canal de distribución"/>
+<collocation text="canal de transmisión"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="canalizar" pos="VM">
+
+<sense id="canalizar.1" definition="Abrir canales en un lugar" used="no">
+<example text="canalizaron el terreno con troncos de madera ahuecados"/>
+<synset wordnet="1.5" id="01327892v"/>
+</sense>
+
+<sense id="canalizar.2" definition="Regularizar y dirigir un líquido o un gas, especialmente el agua para el riego" used="yes">
+<example text="hemos canalizado el agua para regar el terreno"/>
+<example text="los residuos iban canalizados por el subsuelo"/>
+<synonym text="encauzar"/>
+<synset wordnet="1.5" id="00825476v"/>
+<synset wordnet="1.5" id="00830384v"/>
+</sense>
+
+<sense id="canalizar.3" definition="Dirigir u orientar algo hacia la dirección que se desea" used="yes">
+<example text="el deporte suele ser un instrumento para canalizar ilusiones"/>
+<example text="el flujo de átomos se puede canalizar hacia un túnel"/>
+<example text="tres ONG canalizarán la ayuda internacional"/>
+<synonym text="dirigir"/>
+<synset wordnet="1.5" id="01101699v"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="ciego" pos="AQCS">
+
+<mwfiltered text="a ciegas"/>
+<mwfiltered text="gallina ciega"/>
+<mwfiltered text="intestino ciego"/>
+<mwfiltered text="palo de ciego"/>
+
+<sense id="ciego.1" definition="Privado del sentido de la visión" used="yes">
+<example text="es ciego de nacimiento"/>
+<synonym text="invidente"/>
+<synset wordnet="1.5" id="01655899a"/>
+<synset wordnet="1.5" id="01656156a"/>
+</sense>
+
+<sense id="ciego.2" definition="Que no está motivado por la razón o la evidencia" used="yes">
+<example text="para sus propios defectos está ciego"/>
+<example text="estar ciego de ira"/>
+<example text="la ciega naturaleza"/>
+<example text="política ciega"/>
+<collocation text="amor ciego"/>
+<collocation text="ciego de ira"/>
+<collocation text="ciego de odio"/>
+<synset wordnet="1.5" id="01336524a"/>
+<synset wordnet="1.5" id="00154325a"/>
+<synset wordnet="1.5" id="01475973a"/>
+</sense>
+
+<sense id="ciego.3" definition="Que se acepta totalmente, sin cuestionarse" used="yes">
+<example text="tenía una confianza ciega en su pareja"/>
+<collocation text="confianza ciega"/>
+<collocation text="fe ciega"/>
+<collocation text="obediencia ciega"/>
+<synset wordnet="1.5" id="01475973a"/>
+</sense>
+
+<sense id="ciego.4" definition="Que ha ingerido una sustancia en grandes cantidades, especialmente bebidas alcohólicas o drogas" used="no">
+<example text="ciego de comer"/>
+<example text="ciego de fumar"/>
+<collocation text="ciego de alcohol"/>
+<synset wordnet="1.5" id="01475973a"/>
+</sense>
+
+<sense id="ciego.5" definition="Dícese de un conducto sin salida o obturado" used="no">
+<example text="arco ciego"/>
+<synonym text="obstruido"/>
+<synset wordnet="1.5" id="01267382a"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="circuito" pos="NCMS">
+
+<mwfiltered text="circuito de refrigeración"/>
+<mwfiltered text="corto circuito"/>
+
+<sense id="circuito.1" definition="Viaje organizado o recorrido turístico" used="no">
+<example text="optaron por el circuito azteca"/>
+<synonym text="itinerario"/>
+<synonym text="ruta"/>
+<synonym text="recorrido"/>
+<collocation text="circuito turístico"/>
+<synset wordnet="1.5" id="00175664n"/>
+<synset wordnet="1.5" id="00175798n"/>
+</sense>
+
+<sense id="circuito.2" definition="Trayecto en curva cerrado en el que se realizan pruebas deportivas" used="yes">
+<example text="el coche que iba en cabeza se salió del circuito"/>
+<synonym text="recorrido"/>
+<synonym text="pista"/>
+<collocation text="circuito automovilístico"/>
+<collocation text="circuito de pruebas"/>
+<collocation text="circuito de velocidad"/>
+<synset wordnet="1.5" id="02955827n"/>
+</sense>
+
+<sense id="circuito.3" definition="Conjunto de conductores por los que pasa la electricidad" used="yes">
+<example text="todo circuito no es más que un conjunto de transistores unidos entre sí por conexiones y elementos pasivos, como las resistencias y las capacidades"/>
+<synonym text="circuito eléctrico"/>
+<collocation text="circuito abierto"/>
+<collocation text="circuito cerrado"/>
+<collocation text="circuito eléctrico"/>
+<collocation text="circuito electrónico"/>
+<collocation text="circuito impreso"/>
+<collocation text="circuito integrado"/>
+<collocation text="circuito magnético"/>
+<synset wordnet="1.5" id="02294432n"/>
+</sense>
+
+<sense id="circuito.4" definition="Conjunto de eventos, espacios o colectivos que pertenecen a un mismo ámbito " used="yes">
+<example text="el circuito de tenis"/>
+<example text="el circuito artístico"/>
+<collocation text="circuito alternativo"/>
+<collocation text="circuito artístico"/>
+<collocation text="circuito comercial"/>
+<collocation text="circuito político"/>
+<collocation text="circuito televisivo"/>
+<synset wordnet="1.5" id="50005892n"/>
+</sense>
+
+<sense id="circuito.5" definition="Conjunto de elementos que constituyen un único sistema o mecanismo" used="yes">
+<example text="circuitos neuronales"/>
+<example text="circuito cerrado de videovigilancia"/>
+<collocation text="circuito cerrado de televisión"/>
+<collocation text="circuito de televisión"/>
+<collocation text="circuito de vídeo"/>
+<collocation text="circuito nervioso"/>
+<collocation text="circuito neuronal"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="claro" pos="AQCS">
+
+<mwfiltered text="a las claras"/>
+<mwfiltered text="claro de luna"/>
+<mwfiltered text="claro oscuro"/>
+
+<sense id="claro.1" definition="Que recibe mucha luz" used="no">
+<example text="es una habitación muy clara"/>
+<example text="luz clara"/>
+<example text="una mañana apacible y clara"/>
+<collocation text="día claro"/>
+<collocation text="mañana clara"/>
+<collocation text="noche clara"/>
+<collocation text="tarde clara"/>
+<synset wordnet="1.5" id="00215174a"/>
+<synset wordnet="1.5" id="00341080a"/>
+</sense>
+
+<sense id="claro.2" definition="Poco espeso o denso" used="no">
+<example text="sopa clara"/>
+<synset wordnet="1.5" id="00399193a"/>
+<synset wordnet="1.5" id="00341080a"/>
+</sense>
+
+<sense id="claro.3" definition="Fácil de percibir o entender" used="no">
+<example text="sus explicaciones fueron muy claras"/>
+<collocation text="clara alusión"/>
+<collocation text="clara referencia"/>
+<collocation text="clara tendencia"/>
+<collocation text="claro ejemplo"/>
+<collocation text="cosas claras"/>
+<collocation text="estar claro"/>
+<collocation text="idea clara"/>
+<collocation text="información clara"/>
+<collocation text="quedar claro"/>
+<collocation text="respuesta clara"/>
+<synset wordnet="1.5" id="00316387a"/>
+<synset wordnet="1.5" id="00392777a"/>
+<synset wordnet="1.5" id="01069749a"/>
+<synset wordnet="1.5" id="00236011a"/>
+<synset wordnet="1.5" id="01459724a"/>
+<synset wordnet="1.5" id="01239287a"/>
+<synset wordnet="1.5" id="00524117a"/>
+<synset wordnet="1.5" id="00317000a"/>
+<synset wordnet="1.5" id="01239287a"/>
+<synset wordnet="1.5" id="01069749a"/>
+<synset wordnet="1.5" id="01016264a"/>
+<synset wordnet="1.5" id="00316829a"/>
+<synset wordnet="1.5" id="00236011a"/>
+<synset wordnet="1.5" id="00527006a"/>
+<synset wordnet="1.5" id="00317454a"/>
+</sense>
+
+<sense id="claro.4" definition="Que es de color poco subido" used="no">
+<example text="un vestido azul claro"/>
+<example text="la arena clara de la playa"/>
+<collocation text="azul claro"/>
+<collocation text="ojos claros"/>
+<collocation text="verde claro"/>
+<synset wordnet="1.5" id="00302644a"/>
+<synset wordnet="1.5" id="00302830a"/>
+<synset wordnet="1.5" id="01459724a"/>
+</sense>
+
+<sense id="claro.5" definition="Que es transparente o limpio" used="no">
+<example text="agua clara"/>
+<synonym text="transparente"/>
+<synonym text="diáfano"/>
+<collocation text="agua clara"/>
+<synset wordnet="1.5" id="00319406a"/>
+<synset wordnet="1.5" id="00319582a"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="clavar" pos="VM">
+
+<mwfiltered text="clavar el freno"/>
+<mwfiltered text="clavársele a una persona algo (en el alma)"/>
+<mwfiltered text="dejar clavado"/>
+<mwfiltered text="quedarse clavado"/>
+<mwfiltered text="ser clavado a alguien"/>
+<mwfiltered text="tener una espina clavada"/>
+<mwfiltered text="tener (algo) clavado en"/>
+
+<sense id="clavar.1" definition="Introducir una cosa puntiaguda en un sitio" used="no">
+<example text="la abeja clavó su aguijón en el hocico del oso"/>
+<example text="se clavó una aguja"/>
+<synonym text="hincar"/>
+<synset wordnet="1.5" id="00829125v"/>
+</sense>
+
+<sense id="clavar.2" definition="Sujetar, fijar o colocar en un sitio" used="no">
+<example text="clavó los cuadros en la pared"/>
+<example text="clavó su mirada en el espejo"/>
+<example text="los mercaderes clavaron sus paradas en la plaza"/>
+<example text="clavaron hojas de palma en la fachada"/>
+<example text="se me clavaron los pies en el suelo"/>
+<synonym text="fijar"/>
+<synonym text="sujetar"/>
+<synset wordnet="1.5" id="00749176v"/>
+<synset wordnet="1.5" id="00780272v"/>
+<synset wordnet="1.5" id="00814843v"/>
+<synset wordnet="1.5" id="00407285v"/>
+<synset wordnet="1.5" id="00830730v"/>
+</sense>
+
+<sense id="clavar.3" definition="Meter" used="no">
+<example text="le clavaron tres goles"/>
+<example text="clavó la pelota por toda la escuadra"/>
+<example text="Norman clavó un eagle"/>
+<example text="clavó siete mates en el mismo partido"/>
+<synonym text="meter"/>
+<collocation text="clavar un parcial"/>
+<collocation text="clavar un tortazo"/>
+<collocation text="clavar una paliza"/>
+<collocation text="clavar una bronca"/>
+<collocation text="clavar un tanto"/>
+<synset wordnet="1.5" id="01448761v"/>
+</sense>
+
+<sense id="clavar.4" definition="Acertar en lo que se dice o hace" used="no">
+<example text="le llaman el brujo por sus aciertos a la hora de clavar los pronósticos"/>
+<synonym text="dar en el clavo"/>
+<synset wordnet="1.5" id="00406218v"/>
+</sense>
+
+<sense id="clavar.5" definition="Cobrar más de lo debido" used="no">
+<example text="en este bar clavan mucho por un refresco"/>
+<synonym text="estafar"/>
+<synset wordnet="1.5" id="00420526v"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="columna" pos="NCFS">
+
+<mwfiltered text="columna vertebral"/>
+
+<sense id="columna.1" definition="Figura arquitectónica de forma cilíndrica que sirve como soporte o elemento decorativo" used="yes">
+<example text="una gran columna de hormigón"/>
+<example text="una antigua columna del tiempo de los romanos"/>
+<synonym text="pilastra"/>
+<synonym text="pilar"/>
+<synonym text="poste"/>
+<collocation text="columna corintia"/>
+<collocation text="columna de bronce"/>
+<collocation text="columna de mármol"/>
+<collocation text="columna de piedra"/>
+<collocation text="columna dórica"/>
+<collocation text="columna griega"/>
+<collocation text="columna jónica"/>
+<synset wordnet="1.5" id="02326166n"/>
+<synset wordnet="1.5" id="02326665n"/>
+<synset wordnet="1.5" id="02881716n"/>
+</sense>
+
+<sense id="columna.2" definition="Cada una de las secciones verticales de una página separada del resto mediante un espacio en blanco o una línea" used="yes">
+<example text="la opción de darse de baja aparece claramente en la columna de la izquierda del boletín"/>
+<collocation text="? "/>
+</sense>
+
+<sense id="columna.3" definition="Conjunto de cosas colocadas unas sobre otras" used="no">
+<example text="una columna de cajas"/>
+<synonym text="pila"/>
+<collocation text="columna de música"/>
+<synset wordnet="1.5" id="08508248n"/>
+</sense>
+
+<sense id="columna.4" definition="Forma cilíndrica que toman algunos fluidos o gases cuando ascienden o cuando están contenidos en un cilindro" used="yes">
+<example text="una densa columna de humo"/>
+<collocation text="columna de agua"/>
+<collocation text="columna de humo"/>
+<synset wordnet="1.5" id="08508248n"/>
+</sense>
+
+<sense id="columna.5" definition="Persona o cosa que sirve de apoyo o protección" used="yes">
+<example text="Lola Herrera es la columna de todo este espectáculo"/>
+<synonym text="apoyo"/>
+<synonym text="soporte"/>
+<synonym text="sostén"/>
+</sense>
+
+<sense id="columna.6" definition="Formación de personas o vehículos, especialmente en el ámbito militar" used="yes">
+<example text="al frente de una columna de 190 hombres"/>
+<example text="la columna de coches oficiales"/>
+<synonym text="fila"/>
+<synonym text="hilera"/>
+<synset wordnet="1.5" id="05350427n"/>
+</sense>
+
+<sense id="columna.7" definition="Artículo de un periódico o revista que expresa opiniones" used="yes">
+<example text="una columna de indudable impacto periodístico"/>
+<collocation text="columna de opinión"/>
+<collocation text="columna periodística"/>
+<synset wordnet="1.5" id="04149733n"/>
+</sense>
+
+<sense id="columna.8" definition="Eje del cuerpo de los vertebrados formado por pequeños huesos o vértebras unidos entre sí" used="yes">
+<example text="el hueso de columna de vaca"/>
+<example text="desviación en la columna"/>
+<synonym text="columna vertebral"/>
+<synonym text="espinazo"/>
+<synset wordnet="1.5" id="03827126n"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="conducir" pos="VM">
+
+<sense id="conducir.1" definition="Transportar, guiar de un sitio a otro" used="yes">
+<example text="el canal conduce el agua al río"/>
+<example text="lo condujo por el angosto sendero"/>
+<example text="condujo la pelota hasta la portería contraria"/>
+<example text="esta carretera conduce a París"/>
+<synonym text="llevar"/>
+<synonym text="guiar"/>
+<synset wordnet="1.5" id="00825476v"/>
+<synset wordnet="1.5" id="01141779v"/>
+<synset wordnet="1.5" id="01518088v"/>
+<synset wordnet="1.5" id="01443710v"/>
+</sense>
+
+<sense id="conducir.2" definition="Manejar un vehículo para desplazarse" used="yes">
+<example text="conducir un camión"/>
+<example text="conduce bien"/>
+<synonym text="manejar"/>
+<collocation text="carné de conducir"/>
+<collocation text="permiso de conducir"/>
+<synset wordnet="1.5" id="01100152v"/>
+<synset wordnet="1.5" id="01099937v"/>
+<synset wordnet="1.5" id="01101463v"/>
+<synset wordnet="1.5" id="01176439v"/>
+</sense>
+
+<sense id="conducir.3" definition="Desembocar en una situación determinada" used="yes">
+<example text="los condujo a la miseria"/>
+<example text="el fracaso conduce a la frustación"/>
+<example text="no conducir a nada"/>
+<synonym text="llevar"/>
+<synset wordnet="1.5" id="00318557v"/>
+</sense>
+
+<sense id="conducir.4" definition="Dirigir, controlar" used="yes">
+<example text="conduce la empresa con mano de hierro"/>
+<example text="durante quince años condujo el mismo programa de televisión"/>
+<synonym text="dirigir"/>
+<synonym text="controlar"/>
+<synset wordnet="1.5" id="01384104v"/>
+</sense>
+
+<sense id="conducir.5" definition="Portarse de una manera determinada" used="no">
+<example text="se condujo como una auténtica heroína"/>
+<synonym text="comportarse"/>
+<synset wordnet="1.5" id="00007021v"/>
+<synset wordnet="1.5" id="01425745v"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="copiar" pos="VM-[a]">
+
+<sense id="copiar.1" definition="Reproducir exactamente un escrito, un programa, un CD, un artefacto, etc." used="no">
+<example text="copiar un acta"/>
+<example text="copiar el texto de la pizarra"/>
+<example text="intentan copiar las armas estadounidenses"/>
+<example text="lo producen a partir de copiar células de la leche"/>
+<example text="la organización copiaba y vendía videojuegos"/>
+<synonym text="reproducir"/>
+<synset wordnet="1.5" id="00970576v"/>
+<synset wordnet="1.5" id="00997687v"/>
+</sense>
+
+<sense id="copiar.2" definition="Imitar el estilo artístico o literario, el modo de ser, la actitud o el comporatmiento de una persona o colectivo" used="no">
+<example text="le copió hasta el peinado"/>
+<example text="quieren copiar los métodos de la competencia"/>
+<example text="es más rentable copiar que crear"/>
+<example text="las máquinas no pueden copiar la manera de hacer de los humanos"/>
+<synonym text="plagiar"/>
+<synonym text="imitar"/>
+<synset wordnet="1.5" id="00995557v"/>
+<synset wordnet="1.5" id="01512910v"/>
+<synset wordnet="1.5" id="01512597v"/>
+</sense>
+
+<sense id="copiar.3" definition="Realizar un examen o una prueba no a partir del propio conocimiento sino de información no permitida" used="no">
+<example text="copió en el examen"/>
+<example text="hay que saber copiar sin que el maestro te pille"/>
+<synset wordnet="1.5" id="01456450v"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="corazón" pos="NCMS">
+
+<mwfiltered text="con el corazón en la mano"/>
+<mwfiltered text="con la mano en el corazón"/>
+<mwfiltered text="corazón encogido"/>
+<mwfiltered text="darle un vuelco el corazón"/>
+<mwfiltered text="de corazón"/>
+<mwfiltered text="dedo corazón"/>
+<mwfiltered text="del corazón"/>
+<mwfiltered text="hacer de tripas corazón"/>
+<mwfiltered text="no caber el corazón en la mano"/>
+<mwfiltered text="ojos que no ven, corazón que no siente"/>
+<mwfiltered text="tener un corazón de oro"/>
+<mwfiltered text="todo corazón"/>
+
+<sense id="corazón.1" definition="Órgano muscular del cuerpo que se encarga de impulsar la sangre por todo el cuerpo" used="yes">
+<example text="su corazón funciona con normalidad"/>
+<collocation text="a corazón abierto"/>
+<collocation text="operación de corazón"/>
+<collocation text="trasplante de corazón"/>
+<synset wordnet="1.5" id="03720051n"/>
+<synset wordnet="1.5" id="04896205n"/>
+</sense>
+
+<sense id="corazón.2" definition="Parte central o más importante de una cosa" used="yes">
+<example text="el corazón de la ciudad"/>
+<example text="el corazón del equipo"/>
+<synonym text="centro"/>
+<synonym text="núcleo"/>
+<synset wordnet="1.5" id="03996292n"/>
+<synset wordnet="1.5" id="05389703n"/>
+<synset wordnet="1.5" id="05399688n"/>
+</sense>
+
+<sense id="corazón.3" definition="Asiento de los sentimientos, la sensibilidad y el valor" used="yes">
+<example text="el corazón es para amar y la cabeza para pensar"/>
+<collocation text="abrir el corazón"/>
+<collocation text="buen corazón"/>
+<collocation text="con todo mi corazón"/>
+<collocation text="gran corazón"/>
+<collocation text="partir el corazón"/>
+<collocation text="romper el corazón"/>
+<synset wordnet="1.5" id="03995189n"/>
+<synset wordnet="1.5" id="04823348n"/>
+</sense>
+
+<sense id="corazón.4" definition="Apelativo cariñoso" used="no">
+<example text="no temas, corazón"/>
+<synonym text="querido"/>
+<synonym text="amor"/>
+<synonym text="cielo"/>
+<collocation text="mi corazón"/>
+<synset wordnet="1.5" id="05960281n"/>
+</sense>
+
+<sense id="corazón.5" definition="Forma con la que se representa el órgano del mismo nombre" used="no">
+<example text="muros cubiertos con nombres escritos, corazones y mensajes "/>
+<synset wordnet="1.5" id="08485649n"/>
+</sense>
+
+<sense id="corazón.6" definition="Uno de los cuatro palos de la baraja francesa" used="no">
+<example text="trío de corazones"/>
+<example text="diez de corazones"/>
+<collocation text="as de corazones"/>
+<collocation text="reina de corazones"/>
+<collocation text="trío de corazones"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="corona" pos="NCFS">
+
+<sense id="corona.1" definition="Ornamento en forma de círculo que es símbolo de premio o de autoridad" used="yes">
+<example text="la corona de miss"/>
+<example text="la corona del rey"/>
+<collocation text="corona de espigas"/>
+<collocation text="corona de flores"/>
+<collocation text="corona de laurel"/>
+<collocation text="corona funeraria"/>
+<synset wordnet="1.5" id="02381680n"/>
+<synset wordnet="1.5" id="03276836n"/>
+<synset wordnet="1.5" id="02381823n"/>
+<synset wordnet="1.5" id="04379052n"/>
+</sense>
+
+<sense id="corona.2" definition="Unidad monetaria de diversos países" used="yes">
+<example text="corona sueca"/>
+<example text="corona danesa"/>
+<synset wordnet="1.5" id="08218375n"/>
+</sense>
+
+<sense id="corona.3" definition="Reino o monarquía" used="yes">
+<example text="las funciones de la corona"/>
+<example text="fidelidad a la corona española"/>
+<collocation text="corona belga"/>
+<collocation text="corona británica"/>
+<collocation text="corona española"/>
+<collocation text="corona inglesa"/>
+<collocation text="corona noruega"/>
+<synset wordnet="1.5" id="04483939n"/>
+</sense>
+
+<sense id="corona.4" definition="Aureola que aparece alrededor de algunos cuerpos celestes, especialmente del sol durante un eclipse total" used="no">
+<example text="esa fantástica corona que sella el momento culminante del eclipse"/>
+<collocation text="corona solar"/>
+<synset wordnet="1.5" id="06473545n"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="coronar" pos="VM">
+
+<sense id="coronar.1" definition="Colocar una corona en la cabeza o colocar algo a modo de corona" used="no">
+<example text="coronaron al nuevo rey"/>
+<example text="los coronaron de guirnaldas de sueños"/>
+<example text="el candidato iba coronado con un casco de albañil"/>
+<collocation text="coronarse rey"/>
+<collocation text="coronarse emperador"/>
+<synset wordnet="1.5" id="01353141v"/>
+<synset wordnet="1.5" id="00295542v"/>
+</sense>
+
+<sense id="coronar.2" definition="Proclamarse el mejor" used="no">
+<example text="el atleta fue coronado como mejor corredor"/>
+<example text="acaba de coronarse campeón del mundo"/>
+<synset wordnet="1.5" id="01353141v"/>
+</sense>
+
+<sense id="coronar.3" definition="Finalizar, acabar una cosa o hacerla más perfecta" used="no">
+<example text="el óscar coronó una carrera de éxitos"/>
+<synonym text="culminar"/>
+<synset wordnet="1.5" id="00285635v"/>
+<synset wordnet="1.5" id="00214042v"/>
+</sense>
+
+<sense id="coronar.4" definition="Llegar a la cima de un lugar elevado" used="no">
+<example text="coronaron el Everest"/>
+<synonym text="encumbrar"/>
+<synset wordnet="1.5" id="01146064v"/>
+</sense>
+
+<sense id="coronar.5" definition="Estar ubicado en lo alto de algo" used="no">
+<example text="unas esculturas coronaban la catedral"/>
+<example text="las montañas coronaban el pueblo"/>
+<synonym text="rematar"/>
+<synset wordnet="1.5" id="01522709v"/>
+<synset wordnet="1.5" id="01522594v"/>
+<synset wordnet="1.5" id="01531551v"/>
+</sense>
+
+<sense id="coronar.6" definition="Aparecer la cabeza del feto en el parto" used="no">
+<example text="el feto ya se corona"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="duplicar" pos="VM">
+
+<sense id="duplicar.1" definition="Multiplicar por dos una cantidad o hacer dos veces mayor" used="yes">
+<example text="las ventas se han duplicado"/>
+<example text="es un país que duplica nuestra renta por cápita"/>
+<synset wordnet="1.5" id="00147217v"/>
+</sense>
+
+<sense id="duplicar.2" definition="Hacer una copia o repetir algo de la misma manera" used="yes">
+<example text="las facturas habían sido duplicadas"/>
+<example text="el código genético de la célula se duplica"/>
+<synonym text="reproducir"/>
+<synset wordnet="1.5" id="00992036v"/>
+<synset wordnet="1.5" id="01504336v"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="escandaloso" pos="AQCS">
+
+<sense id="escandaloso.1" definition="Que provoca escándalo" used="no">
+<example text="conducta escandalosa"/>
+<collocation text="afirmación escandalosa"/>
+<collocation text="conducta escandalosa"/>
+<collocation text="declaración escandalosa"/>
+<collocation text="titular escandaloso"/>
+<collocation text="vida escandalosa"/>
+<synset wordnet="1.5" id="01244558a"/>
+</sense>
+
+<sense id="escandaloso.2" definition="Que es muy ruidoso o inquieto" used="no">
+<example text="fiesta escandalosa"/>
+<example text="niños escandalosos"/>
+<synonym text="ruidoso"/>
+<synset wordnet="1.5" id="01471401a"/>
+<synset wordnet="1.5" id="01470737a"/>
+<synset wordnet="1.5" id="01471236a"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="explotar" pos="VM">
+
+<sense id="explotar.1" definition="Obtener beneficio de algo mediante el trabajo" used="yes">
+<example text="explotar una mina"/>
+<synset wordnet="1.5" id="00660933v"/>
+<synset wordnet="1.5" id="00661466v"/>
+</sense>
+
+<sense id="explotar.2" definition="Hacer trabajar a alguien de forma abusiva en beneficio propio" used="yes">
+<example text="explotaba a sus empleados"/>
+<synonym text="abusar"/>
+<synonym text="aprovecharse"/>
+<synset wordnet="1.5" id="01363660v"/>
+</sense>
+
+<sense id="explotar.3" definition="Valerse de una situación o de una relación en beneficio propio" used="yes">
+<example text="explotaba sus encantos para obtener trabajo"/>
+<synonym text="aprovecharse"/>
+<synset wordnet="1.5" id="00659593v"/>
+<synset wordnet="1.5" id="01303135v"/>
+</sense>
+
+<sense id="explotar.4" definition="Hacer explosión una cosa, en especial un artefacto" used="yes">
+<example text="una bomba muy potente explotó cerca del mercado"/>
+<synonym text="estallar"/>
+<synset wordnet="1.5" id="00185045v"/>
+<synset wordnet="1.5" id="00185462v"/>
+<synset wordnet="1.5" id="00643046v"/>
+</sense>
+
+<sense id="explotar.5" definition="Manifestar o emerger de repente un sentimiento o una situación latente" used="yes">
+<example text="el presidente explotó indignado por las declaraciones"/>
+<synonym text="estallar"/>
+<synset wordnet="1.5" id="00185244v"/>
+<synset wordnet="1.5" id="00404923v"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="ganar" pos="VM">
+
+<mwfiltered text="ganar el cielo"/>
+<mwfiltered text="ganar la partida"/>
+<mwfiltered text="ganarse el pan"/>
+<mwfiltered text="ganarse la vida"/>
+<mwfiltered text="ganarse las habichuelas"/>
+<mwfiltered text="ganarse los garbanzos"/>
+<mwfiltered text="ganar terreno"/>
+<mwfiltered text="ganar tiempo"/>
+<mwfiltered text="llevar/tener las de ganar"/>
+<mwfiltered text="no ganar para sustos"/>
+
+<sense id="ganar.1" definition="Resultar vencedor u obtener un beneficio en un concurso, juego, competición o enfrentamiento" used="yes">
+<example text="era el único hombre que había logrado ganar nueve veces la carrera incomparable"/>
+<example text="los americanos habían ganado y subieron al podio en chándal"/>
+<example text="hemos ganado el derecho a competir"/>
+<example text="fueron ganando y colonizando sierra tras sierra"/>
+<collocation text="ganar a las cartas"/>
+<collocation text="ganar dinero"/>
+<collocation text="ganar el primer premio"/>
+<collocation text="ganar la lotería"/>
+<collocation text="ganar las elecciones"/>
+<collocation text="ganar un campeonato"/>
+<collocation text="ganar un partido"/>
+<collocation text="ganar un pleito"/>
+<collocation text="ganar una carrera"/>
+<synset wordnet="1.5" id="00620486v"/>
+<synset wordnet="1.5" id="01302917v"/>
+<synset wordnet="1.5" id="01304283v"/>
+<synset wordnet="1.5" id="01302268v"/>
+<synset wordnet="1.5" id="01310630v"/>
+</sense>
+
+<sense id="ganar.2" definition="Acrecentar el grado de una propiedad" used="yes">
+<example text="durante la Eurocopa hizo de comentarista y su nombre ganó fuerza"/>
+<example text="la película gana ritmo a medida que avanza"/>
+<collocation text="ganar espacio"/>
+<synset wordnet="1.5" id="00094168v"/>
+</sense>
+
+<sense id="ganar.3" definition="Recibir un sueldo fijo por un empleo" used="no">
+<example text="no gana tanto como Martín Vázquez"/>
+<example text="un hombre que gana 128.000 pesetas"/>
+<example text="en el mundial ganan sólo una parte pequeña de sus ingresos"/>
+<collocation text="ganar un sueldo"/>
+<synset wordnet="1.5" id="01302268v"/>
+</sense>
+
+<sense id="ganar.4" definition="Llegar al destino, generalmente con esfuerzo" used="no">
+<example text="suerte que el caballo arrastró en su huida al hombre y juntos ganaron la orilla"/>
+<collocation text="ganar la costa; ganar la cumbre; ganar la orilla"/>
+<synset wordnet="1.5" id="01154482v"/>
+</sense>
+
+<sense id="ganar.5" definition="Captar la voluntad de alguien" used="no">
+<example text="se muestra generoso para ganar amigos"/>
+<example text="Wohlfarth se ganó los aplausos del público"/>
+<example text="la cuestión es ganar adictos para seguir en el poder"/>
+<collocation text="ganar amigos"/>
+<collocation text="ganarse el respeto"/>
+<synset wordnet="1.5" id="01301819v"/>
+</sense>
+
+<sense id="ganar.6" definition="Aventajar a alguien o a algo en un aspecto" used="no">
+<example text="desde luego en fiabilidad no hay quien le gane"/>
+</sense>
+
+<sense id="ganar.7" definition="Mejorar" used="no">
+<example text="con ello se ha ganado en amenidad"/>
+<example text="los habitantes de esta zona ganarán en calidad de vida"/>
+<synset wordnet="1.5" id="00123459v"/>
+</sense>
+
+<sense id="ganar.8" definition="Merecerse una cosa" used="yes">
+<example text="el gobierno egipcio se ganó la condena del mundo árabe por su acuerdo de paz por separado con Israel"/>
+<example text="excepto los &quot;caras&quot;, el resto se gana el sueldo"/>
+<example text="me toca ganarme el sustento"/>
+<example text="su equipo se ha ganado el cielo"/>
+<synset wordnet="1.5" id="01301819v"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="gemelo" pos="NCMS">
+
+<mwfiltered text="almas gemelas"/>
+
+<sense id="gemelo.1" definition="Cada una de las dos personas que han nacido de un mismo parto" used="no">
+<example text="dio a luz a dos gemelos"/>
+<example text="embarazo de gemelos"/>
+<synonym text="mellizo"/>
+<synonym text="melgo"/>
+<collocation text="embarazo de gemelos"/>
+<collocation text="gemelo bivitelino"/>
+<collocation text="gemelo idéntico"/>
+<collocation text="gemelo siamés"/>
+<collocation text="gemelo univitelino"/>
+<collocation text="hermano gemelo"/>
+<collocation text="hijo gemelo"/>
+<collocation text="parto de gemelos"/>
+<collocation text="triple gemelo"/>
+<synset wordnet="1.5" id="06406919n"/>
+</sense>
+
+<sense id="gemelo.2" definition="Cada uno de los dos músculos que forman la pantorrilla y que actúan en el movimiento del pie" used="no">
+<example text="así se rompen los aductores y los gemelos"/>
+<synonym text="músculo gemelo"/>
+<synset wordnet="1.5" id="03819911n"/>
+</sense>
+
+<sense id="gemelo.3" definition="Cada uno de los dos adornos que se ponen en el puño para cerrarlo y que están formados por dos piezas unidas por una cadena" used="no">
+<example text="unos gemelos de oro con la letra grabada"/>
+<synset wordnet="1.5" id="02387181n"/>
+</sense>
+
+<sense id="gemelo.4" definition="Instrumento óptico formado por dos tubos y unas lentes que permiten ver los objetos ampliados" used="no">
+<example text="con los gemelos podía ver la expresión del actor"/>
+<synonym text="anteojos"/>
+<synonym text="lentes"/>
+<synonym text="prismáticos"/>
+<synset wordnet="1.5" id="02158877n"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="gracia" pos="NCFS">
+
+<mwfiltered text="año de gracia"/>
+<mwfiltered text="caer en gracia"/>
+<mwfiltered text="cantarle las gracias"/>
+<mwfiltered text="estado de gracia"/>
+<mwfiltered text="golpe de gracia"/>
+<mwfiltered text="gracias a Dios"/>
+<mwfiltered text="gracias a"/>
+<mwfiltered text="maldita la gracia"/>
+<mwfiltered text="no tener gracia"/>
+<mwfiltered text="no verle la gracia"/>
+<mwfiltered text="vaya gracia"/>
+<mwfiltered text="y gracias"/>
+
+<sense id="gracia.1" definition="Cualidad o cualidades que hacen agradable o atractivo a alguien o algo" used="yes">
+<example text="nunca sabré si me enamoré tanto de ella porque yo era joven o porque su belleza y su gracia eran excepcionales"/>
+<synonym text="encanto"/>
+<synonym text="atractivo"/>
+<synset wordnet="1.5" id="03385681n"/>
+<synset wordnet="1.5" id="03489702n"/>
+<synset wordnet="1.5" id="03489573n"/>
+</sense>
+
+<sense id="gracia.2" definition="Cualidad de una persona o cosa para hacer reír y divertir" used="no">
+<example text="una comedia muy tópica, basada en la gracia de Woods y Michael J. Fox"/>
+<example text="aquella barriguita, que a su novia tanta gracia le hacía"/>
+</sense>
+
+<sense id="gracia.3" definition="Dicho o acto que hace reír" used="no">
+<example text="calaba más en la gente cuando hacia las gracias para presentar las melodías que cuando las interpretaba"/>
+<synonym text="broma"/>
+<synonym text="chiste"/>
+<synonym text="agudeza"/>
+<collocation text="reír la gracia"/>
+<synset wordnet="1.5" id="04417785n"/>
+<synset wordnet="1.5" id="50000249n"/>
+</sense>
+
+<sense id="gracia.4" definition="Concesión o favor de tipo afectivo o legal que se hace a una persona" used="yes">
+<example text="le liberaron por gracia del rey"/>
+<example text="una de las atenciones de que le hacía gracia"/>
+<synonym text="indulto"/>
+<synonym text="benevolencia"/>
+<synonym text="beneficio"/>
+<synonym text="perdón"/>
+<collocation text="gracia divina"/>
+<synset wordnet="1.5" id="03400073n"/>
+</sense>
+
+<sense id="gracia.5" definition="Fórmula de agradecimiento" used="yes">
+<example text="gracias por el consejo"/>
+<collocation text="muchas gracias"/>
+<synset wordnet="1.5" id="04661022n"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="grano" pos="NCMS">
+
+<mwfiltered text="ir al grano"/>
+
+<sense id="grano.1" definition="Pequeño bulto o forúnculo que sale en la piel" used="no">
+<example text="la nariz roja y con muchos granos"/>
+<synonym text="forúnculo"/>
+<collocation text="grano de pus"/>
+<synset wordnet="1.5" id="08681778n"/>
+<synset wordnet="1.5" id="08677034n"/>
+</sense>
+
+<sense id="grano.2" definition="Pequeña partícula o elemento que forma parte de un todo" used="yes">
+<example text="granos de polvo"/>
+<collocation text="grano de arena"/>
+<collocation text="grano de azúcar"/>
+<collocation text="grano de polen"/>
+<collocation text="grano de sal"/>
+<synset wordnet="1.5" id="05734433n"/>
+</sense>
+
+<sense id="grano.3" definition="Semilla o fruto de los cereales" used="yes">
+<example text="granos de cereal"/>
+<example text="las gallinas comen grano"/>
+<example text="grano de maíz"/>
+<collocation text="grano de arroz"/>
+<collocation text="grano de maíz"/>
+<collocation text="grano de trigo"/>
+<synset wordnet="1.5" id="07123531n"/>
+<synset wordnet="1.5" id="07123713n"/>
+<synset wordnet="1.5" id="05013012n"/>
+</sense>
+
+<sense id="grano.4" definition="Cada uno de los frutos o semillas pequeños y redondeados de ciertas plantas" used="yes">
+<example text="doce granos de uva"/>
+<example text="los granos de café"/>
+<collocation text="grano de café"/>
+<collocation text="grano de granada"/>
+<collocation text="grano de pimienta"/>
+<collocation text="grano de uva"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="hermano" pos="NCCS">
+
+<mwfiltered text="primo hermano"/>
+
+<sense id="hermano.1" definition="Persona que con respecto a otra tiene los mismos padres o uno de ellos en común" used="yes">
+<example text="Carlos era el hermano más joven"/>
+<collocation text="hermano bastardo"/>
+<collocation text="hermano carnal"/>
+<collocation text="hermano de leche"/>
+<collocation text="hermano de madre"/>
+<collocation text="hermano de padre"/>
+<collocation text="hermano de sangre"/>
+<collocation text="hermano gemelo"/>
+<collocation text="hermano mayor"/>
+<collocation text="hermano mellizo"/>
+<collocation text="hermano menor"/>
+<collocation text="hermano pequeño"/>
+<collocation text="hermano político"/>
+<collocation text="hermano siamés"/>
+<collocation text="medio hermano"/>
+<synset wordnet="1.5" id="06342992n"/>
+<synset wordnet="1.5" id="05974971n"/>
+<synset wordnet="1.5" id="06193216n"/>
+<synset wordnet="1.5" id="06348002n"/>
+<synset wordnet="1.5" id="06085533n"/>
+</sense>
+
+<sense id="hermano.2" definition="Individuo al que uno se encuentra unido por vínculos sociales, ideológicos u de otro tipo" used="yes">
+<example text="sus hermanos de raza"/>
+<example text="estaba hecho polvo, hermanos "/>
+<synonym text="compañero"/>
+<synonym text="camarada"/>
+<synonym text="amigo"/>
+<synonym text="colega"/>
+<synset wordnet="1.5" id="05975560n"/>
+<synset wordnet="1.5" id="05975298n"/>
+</sense>
+
+<sense id="hermano.3" definition="Persona que es miembro de una hermandad, una cofradía o una comunidad religiosa" used="no">
+<example text="hermano de honor de la cofradía"/>
+<example text="hermanas agustinas"/>
+<collocation text="hermana de la caridad"/>
+<synset wordnet="1.5" id="05975157n"/>
+<synset wordnet="1.5" id="06347840n"/>
+<synset wordnet="1.5" id="06347644n"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="jugar" pos="VM">
+
+<mwfiltered text="jugar a dos bandas"/>
+<mwfiltered text="jugar a la baja"/>
+<mwfiltered text="jugar al alza"/>
+<mwfiltered text="jugar bien las cartas"/>
+<mwfiltered text="jugar con dos barajas"/>
+<mwfiltered text="jugar con fuego"/>
+<mwfiltered text="jugar fuerte"/>
+<mwfiltered text="jugar la última carta"/>
+<mwfiltered text="jugar limpio"/>
+<mwfiltered text="jugar sucio"/>
+<mwfiltered text="jugar sus bazas"/>
+<mwfiltered text="jugar una baza"/>
+<mwfiltered text="jugarse el todo por el todo"/>
+<mwfiltered text="jugársela alguien"/>
+<mwfiltered text="jugárselo todo a una carta"/>
+
+<sense id="jugar.1" definition="Participar en un juego o deporte, o hacer una cosa para divertirse o entretenerse" used="yes">
+<example text="también juegan al Trivial"/>
+<example text="un espacio para que jueguen los niños"/>
+<example text="jugadores bosnios que juegan en varios países europeos"/>
+<example text="el partido se jugó en Hamburgo"/>
+<example text="el político juega a mantener la ambigüedad"/>
+<collocation text="jugar a la pelota"/>
+<collocation text="jugar a los dados"/>
+<collocation text="jugar a muñecas"/>
+<collocation text="jugar al ajedrez"/>
+<collocation text="jugar al baloncesto"/>
+<collocation text="jugar al dominó"/>
+<collocation text="jugar al fútbol"/>
+<collocation text="jugar bien"/>
+<collocation text="jugar con ventaja"/>
+<collocation text="jugar limpio"/>
+<collocation text="jugar mal"/>
+<collocation text="jugar sucio"/>
+<collocation text="jugar una partida"/>
+<synset wordnet="1.5" id="00605818v"/>
+<synset wordnet="1.5" id="00610422v"/>
+<synset wordnet="1.5" id="00912356v"/>
+<synset wordnet="1.5" id="01369076v"/>
+</sense>
+
+<sense id="jugar.2" definition="Arriesgar una cosa, generalmente en un negocio o juego de azar" used="yes">
+<example text="si queréis jugaros la vida, circulad por esta vía"/>
+<example text="más del 30% de los adolescentes de entre 14 y 18 años juegan en bolsa"/>
+<example text="nos estamos jugando nada menos que la convivencia pacífica"/>
+<example text="a los 22 o 23 comencé a jugar en el casino"/>
+<collocation text="jugar a la bolsa"/>
+<collocation text="jugar a la lotería"/>
+<collocation text="jugar en bolsa"/>
+<collocation text="jugarse el dinero"/>
+<collocation text="jugarse el pellejo"/>
+<collocation text="jugarse la vida"/>
+<synset wordnet="1.5" id="00646369v"/>
+</sense>
+
+<sense id="jugar.3" definition="Desempeñar un papel o intervenir en un asunto o actividad" used="yes">
+<example text="la decadencia de los partidos políticos y su falta de prestigio juegan negativamente en el escenario"/>
+<example text="juega un importante papel en el proceso de liberalización del mercado español"/>
+<example text="la humildad y la falta de pretensión han jugado a favor de Daryl Hannah"/>
+<collocation text="jugar a favor"/>
+<collocation text="jugar en contra"/>
+<collocation text="jugar en un asunto"/>
+<collocation text="jugar un papel"/>
+<synset wordnet="1.5" id="01542510v"/>
+</sense>
+
+<sense id="jugar.4" definition="Tomar a broma una cosa seria o divertirse a costa de una persona, sin tener en cuenta sus sentimientos" used="no">
+<example text="no juegue con los sentimientos"/>
+<example text="pero con las identidades - por lo menos en España - no se puede jugar"/>
+<collocation text="jugar con los sentimientos"/>
+<synset wordnet="1.5" id="00400879v"/>
+</sense>
+
+<sense id="jugar.5" definition="Hacer uso de una cosa de modo que pueda servir al objetivo que se persigue" used="no">
+<example text="en mis anteriores novelas jugaba con la filosofía y la ciencia ficción"/>
+<example text="su escultura juega con el espacio y muestra mayor predilección por las curvas"/>
+<example text="se jugó publicitariamente con la imagen del helicóptero"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="letra" pos="NCFS">
+
+<mwfiltered text="al pie de la letra"/>
+<mwfiltered text="baile de cifras y letras"/>
+<mwfiltered text="buenas letras"/>
+<mwfiltered text="despacito y buena letra"/>
+<mwfiltered text="de su propio puño y letra"/>
+<mwfiltered text="letra muerta"/>
+<mwfiltered text="letra pequeña"/>
+<mwfiltered text="letra menuda"/>
+<mwfiltered text="primeras letras"/>
+<mwfiltered text="sopa de letras"/>
+
+<sense id="letra.1" definition="Cada uno de los signos que se utilizan para representar el lenguaje hablado" used="yes">
+<example text="cada letra del alfabeto fenicio recibe un nombre"/>
+<collocation text="letra cursiva"/>
+<collocation text="letra de imprenta"/>
+<collocation text="letra gótica"/>
+<collocation text="letra griega"/>
+<collocation text="letra itálica"/>
+<collocation text="letra mayúscula"/>
+<collocation text="letra minúscula"/>
+<collocation text="letra negrilla"/>
+<collocation text="letra negrita"/>
+<collocation text="letra redonda"/>
+<synset wordnet="1.5" id="04451043n"/>
+</sense>
+
+<sense id="letra.2" definition="Conjunto de rasgos propios de la forma de escribir de una persona" used="yes">
+<example text="escribe con buena letra"/>
+<synonym text="caligrafía"/>
+<collocation text="buena letra"/>
+<collocation text="mala letra"/>
+<synset wordnet="1.5" id="04217529n"/>
+</sense>
+
+<sense id="letra.3" definition="Texto de una canción" used="yes">
+<example text="el grupo irlandés compone una pieza con letra del escritor angloindio"/>
+<synonym text="texto"/>
+<synonym text="versos"/>
+<synset wordnet="1.5" id="04570710n"/>
+</sense>
+
+<sense id="letra.4" definition="Documento mediante el que se ordena a una persona que pague a otra en un momento y lugar concretos" used="yes">
+<example text="tengo la hipoteca del piso y las letras del coche"/>
+<collocation text="letra de cambio"/>
+<synset wordnet="1.5" id="08209564n"/>
+</sense>
+
+<sense id="letra.5" definition="Diversas disciplinas que tratan sobre las ideas, la civilización y el arte" used="yes">
+<example text="demostró que bajo la bóveda de su cabeza podían convivir las ciencias, las letras y las bellas artes"/>
+<synonym text="humanidades"/>
+<synonym text="ciencias humanas"/>
+<collocation text="buenas letras"/>
+<collocation text="carrera de letras"/>
+<collocation text="hombre de letras"/>
+<collocation text="letras mixtas"/>
+<collocation text="letras puras"/>
+<synset wordnet="1.5" id="04095738n"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="local" pos="AQCS">
+
+<sense id="local.1" definition="Que sólo afecta a una parte y no al todo" used="no">
+<example text="infección local"/>
+<collocation text="anestesia local"/>
+<synset wordnet="1.5" id="01086794a"/>
+</sense>
+
+<sense id="local.2" definition="De una localidad, región o área específica" used="no">
+<example text="la policía local"/>
+<example text="los productos locales"/>
+<example text="lluvias locales"/>
+<example text="fuertes vientos locales"/>
+<collocation text="administración local"/>
+<collocation text="agrupación local"/>
+<collocation text="ámbito local"/>
+<collocation text="artista local"/>
+<collocation text="autoridad local"/>
+<collocation text="diario local"/>
+<collocation text="elecciones locales"/>
+<collocation text="emisora local"/>
+<collocation text="empresa local"/>
+<collocation text="ente local"/>
+<collocation text="entidad local"/>
+<collocation text="equipo local"/>
+<collocation text="gobierno local"/>
+<collocation text="institución local"/>
+<collocation text="llamada local"/>
+<collocation text="mercado local"/>
+<collocation text="partido local"/>
+<collocation text="periódico local"/>
+<collocation text="poder local"/>
+<collocation text="policía local"/>
+<collocation text="prensa local"/>
+<collocation text="radio local"/>
+<collocation text="televisión local"/>
+<synset wordnet="1.5" id="00779600a"/>
+<synset wordnet="1.5" id="00837755a"/>
+<synset wordnet="1.5" id="00839294a"/>
+<synset wordnet="1.5" id="02032240a"/>
+<synset wordnet="1.5" id="02036381a"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="masa" pos="NCFS">
+
+<mwfiltered text="con las manos en la masa"/>
+<mwfiltered text="de masas"/>
+<mwfiltered text="en masa"/>
+
+<sense id="masa.1" definition="Conjunto de cosas o personas que forman un grupo numeroso" used="yes">
+<example text="una masa de hombres sin rostro"/>
+<synonym text="aglomeración"/>
+<collocation text="masa anónima"/>
+<collocation text="masa humana"/>
+<collocation text="masa obrera"/>
+<collocation text="masa social"/>
+<synset wordnet="1.5" id="05214761n"/>
+<synset wordnet="1.5" id="08432825n"/>
+</sense>
+
+<sense id="masa.2" definition="Totalidad de una cosa cuyas partes son de la misma naturaleza" used="yes">
+<example text="se evaporaron enormes masas de agua"/>
+<example text="una masa espesa de tiempo inmóvil"/>
+<synset wordnet="1.5" id="05641748n"/>
+</sense>
+
+<sense id="masa.3" definition="Mezcla espesa y consistente formada por un líquido y una substancia en polvo" used="no">
+<example text="la masa para el pastel"/>
+<synonym text="pasta"/>
+<collocation text="masa de hojaldre"/>
+<synset wordnet="1.5" id="04875498n"/>
+<synset wordnet="1.5" id="05058079n"/>
+<synset wordnet="1.5" id="05075340n"/>
+</sense>
+
+<sense id="masa.4" definition="Cantidad de materia que posee un cuerpo, en física" used="yes">
+<example text="unas partículas se hallan dotadas de mayor masa que otras"/>
+<example text="la masa de un cuerpo"/>
+<collocation text="masa atómica"/>
+<collocation text="masa molecular"/>
+<synset wordnet="1.5" id="03543137n"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="mina" pos="NCFS">
+
+<mwfiltered text="ser una mina de oro"/>
+
+<sense id="mina.1" definition="Yacimiento de minerales e instalaciones que se hacen para su explotación" used="yes">
+<example text="mina de zinc"/>
+<example text="mina de cobre"/>
+<synonym text="yacimiento"/>
+<synonym text="explotación"/>
+<collocation text="mina de carbón"/>
+<collocation text="mina de cobre"/>
+<collocation text="mina de diamantes"/>
+<collocation text="mina de oro "/>
+<collocation text="mina de zinc"/>
+<synset wordnet="1.5" id="02786310n"/>
+</sense>
+
+<sense id="mina.2" definition="Artefacto explosivo situado bajo tierra o agua que explota al paso del enemigo" used="yes">
+<example text="esquivar las minas"/>
+<collocation text="campo de minas"/>
+<collocation text="mina antipersona"/>
+<collocation text="mina antipersonal"/>
+<collocation text="mina magnética"/>
+<collocation text="mina subterránea"/>
+<synset wordnet="1.5" id="02786133n"/>
+</sense>
+
+<sense id="mina.3" definition="Barra de grafito u otro material que se encuentra en el interior de los lápices" used="no">
+<example text="el ancho del trazo de una mina de lápiz"/>
+<collocation text="mina de lápiz"/>
+<synset wordnet="1.5" id="02708124n"/>
+</sense>
+
+<sense id="mina.4" definition="Persona o cosa de la que se puede sacar provecho" used="no">
+<example text="su nombre es una mina taquillera"/>
+<synonym text="filón"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="natural" pos="AQCS">
+
+<mwfiltered text="al natural"/>
+<mwfiltered text="día natural"/>
+<mwfiltered text="gas natural"/>
+<mwfiltered text="hijo natural"/>
+<mwfiltered text="ley natural"/>
+<mwfiltered text="número natural"/>
+<mwfiltered text="selección natural"/>
+
+<sense id="natural.1" definition="Relativo o perteneciente a la naturaleza" used="yes">
+<example text="fenómenos naturales"/>
+<example text="un entorno natural"/>
+<collocation text="área natural"/>
+<collocation text="catástrofe natural"/>
+<collocation text="causas naturales"/>
+<collocation text="ciencias naturales"/>
+<collocation text="desastre natural"/>
+<collocation text="entorno natural"/>
+<collocation text="historia natural"/>
+<collocation text="medio natural"/>
+<collocation text="parque natural"/>
+<collocation text="recurso natural"/>
+<collocation text="refugio natural"/>
+<collocation text="reserva natural"/>
+<collocation text="selección natural"/>
+<synset wordnet="1.5" id="01203891a"/>
+<synset wordnet="1.5" id="01206435a"/>
+<synset wordnet="1.5" id="02147158a"/>
+</sense>
+
+<sense id="natural.2" definition="Perteneciente a la naturaleza propia de un ser, objeto o colectivo, que es innato e inevitable" used="yes">
+<example text="egoísmo natural"/>
+<example text="espontaneidad natural"/>
+<example text="simpatía natural"/>
+<example text="los males sociales son naturales"/>
+<collocation text="belleza natural"/>
+<collocation text="inclinación natural"/>
+</sense>
+
+<sense id="natural.3" definition="No elaborado, producido por la naturaleza" used="yes">
+<example text="zumo de naranja natural"/>
+<example text="alimentos naturales"/>
+<collocation text="causa natural"/>
+<collocation text="cocina natural"/>
+<collocation text="componente natural"/>
+<collocation text="luz natural"/>
+<collocation text="medicina natural"/>
+<collocation text="método natural"/>
+<collocation text="muerte natural"/>
+<collocation text="proceso natural"/>
+<collocation text="producto natural"/>
+<collocation text="seda natural"/>
+<collocation text="sustancia natural"/>
+<collocation text="zumo natural"/>
+<synset wordnet="1.5" id="01498103a"/>
+<synset wordnet="1.5" id="01201857a"/>
+<synset wordnet="1.5" id="00751018a"/>
+<synset wordnet="1.5" id="01203891a"/>
+<synset wordnet="1.5" id="01206435a"/>
+<synset wordnet="1.5" id="01283877a"/>
+</sense>
+
+<sense id="natural.4" definition="Que es de esperar, sin artificio" used="yes">
+<example text="todo sucedió de modo muy natural"/>
+<collocation text="curso natural"/>
+<collocation text="evolución natural"/>
+<synset wordnet="1.5" id="01222058a"/>
+</sense>
+
+<sense id="natural.5" definition="Que es espontáneo o sincero" used="no">
+<example text="Pedro es muy natural"/>
+<synonym text="sencillo"/>
+<synonym text="franco"/>
+<synset wordnet="1.5" id="00062223a"/>
+</sense>
+
+<sense id="natural.6" definition="Nativo" used="yes">
+<example text="Banderas es natural de Málaga"/>
+<synonym text="nativo"/>
+<synonym text="originario"/>
+<collocation text="natural de"/>
+<synset wordnet="1.5" id="00779182a"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="naturaleza" pos="NCFS">
+
+<mwfiltered text="naturaleza muerta"/>
+
+<sense id="naturaleza.1" definition="Conjunto de los seres vivos y las cosas que han sido creadas sin intervención del hombre" used="yes">
+<example text="ataques directos contra la naturaleza"/>
+<synset wordnet="1.5" id="05655960n"/>
+<synset wordnet="1.5" id="08530753n"/>
+</sense>
+
+<sense id="naturaleza.2" definition="Fuerza que ordena y dispone las cosas" used="yes">
+<example text="la naturaleza le dotó de un carácter fuerte"/>
+<synset wordnet="1.5" id="05772863n"/>
+</sense>
+
+<sense id="naturaleza.3" definition="Conjunto de propiedades características de una persona o cosa que constituyen su esencia" used="yes">
+<example text="la naturaleza del tiburón le hace especialmente peligroso"/>
+<synonym text="carácter"/>
+<synonym text="condición"/>
+<synonym text="índole"/>
+<collocation text="naturaleza animal"/>
+<collocation text="naturaleza humana"/>
+<synset wordnet="1.5" id="03287262n"/>
+<synset wordnet="1.5" id="03340632n"/>
+</sense>
+
+<sense id="naturaleza.4" definition="Complexión física" used="no">
+<example text="no hay que preocuparse, es de naturaleza fuerte"/>
+<synonym text="constitución"/>
+<synset wordnet="1.5" id="03486752n"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="operación" pos="NCFS">
+
+<mwfiltered text="base de operaciones"/>
+
+<sense id="operación.1" definition="Acción que forma parte de un plan o de una serie de acciones relacionadas entre sí" used="yes">
+<example text="operación antidroga"/>
+<example text="operación de protección de la zona costera"/>
+<synonym text="actuación"/>
+<collocation text="operación antidroga"/>
+<collocation text="operación antiterrorista"/>
+<collocation text="operación bélica"/>
+<collocation text="operación inmobiliaria"/>
+<collocation text="operación internacional"/>
+<collocation text="operación militar"/>
+<collocation text="operación policial"/>
+<collocation text="operación política"/>
+<collocation text="operación retorno"/>
+<collocation text="operación salida"/>
+<collocation text="operación urbanística"/>
+<synset wordnet="1.5" id="00230407n"/>
+<synset wordnet="1.5" id="00528736n"/>
+<synset wordnet="1.5" id="00338477n"/>
+</sense>
+
+<sense id="operación.2" definition="Intervención quirúrgica" used="yes">
+<example text="convaleciente de una operación de cadera"/>
+<synonym text="intervención"/>
+<collocation text="operación quirúrgica"/>
+<collocation text="sala de operaciones"/>
+<synset wordnet="1.5" id="00387100n"/>
+</sense>
+
+<sense id="operación.3" definition="Transacción o negociación económica" used="yes">
+<example text="nuestra operación habitual ante un cajero automático"/>
+<example text="un dinero cogido con alfileres y producto de operaciones chanchulleras"/>
+<synonym text="negocio"/>
+<collocation text="operación bancaria"/>
+<collocation text="operación bursátil"/>
+<collocation text="operación económica"/>
+<collocation text="operación financiera"/>
+<synset wordnet="1.5" id="00607419n"/>
+</sense>
+
+<sense id="operación.4" definition="Cálculo que se hace con expresiones aritméticas o algebraicas" used="no">
+<example text="Diari y sus colegas de aula podrán practicar algunas operaciones matemáticas"/>
+<synonym text="cálculo"/>
+<collocation text="operación aritmética"/>
+<collocation text="operación matemática"/>
+<synset wordnet="1.5" id="00483996n"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="partido" pos="NCMS">
+
+<mwfiltered text="partido judicial"/>
+<mwfiltered text="sacar partido"/>
+<mwfiltered text="ser un buen partido"/>
+<mwfiltered text="tomar partido"/>
+
+<sense id="partido.1" definition="Organización política cuyos miembros comparten la misma ideología" used="yes">
+<example text="el principal partido del país"/>
+<example text="el partido en la oposición"/>
+<collocation text="partido centrista"/>
+<collocation text="partido comunista"/>
+<collocation text="partido conservador"/>
+<collocation text="partido cristianodemócrata"/>
+<collocation text="partido de derechas"/>
+<collocation text="partido de izquierdas"/>
+<collocation text="partido de la oposición"/>
+<collocation text="partido demócrata"/>
+<collocation text="partido ecologista"/>
+<collocation text="partido estatal"/>
+<collocation text="partido fascista"/>
+<collocation text="partido gobernante"/>
+<collocation text="partido laborista"/>
+<collocation text="partido local"/>
+<collocation text="partido mayoritario"/>
+<collocation text="partido minoritario"/>
+<collocation text="partido nacional"/>
+<collocation text="partido nacionalista"/>
+<collocation text="partido político"/>
+<collocation text="partido populista"/>
+<collocation text="partido progresista"/>
+<collocation text="partido republicano"/>
+<collocation text="partido socialdemócrata"/>
+<collocation text="partido socialista"/>
+<collocation text="partido tradicional"/>
+<collocation text="partido ultra"/>
+<collocation text="partido ultraderechista"/>
+<collocation text="partido ultraortodoxo"/>
+<collocation text="partido verde"/>
+<synset wordnet="1.5" id="05259394n"/>
+</sense>
+
+<sense id="partido.2" definition="Prueba deportiva en la que se enfrentan dos equipos o jugadores" used="yes">
+<example text="partido de baloncesto"/>
+<example text="partido de tenis"/>
+<example text="el mejor partido de la temporada"/>
+<collocation text="partido amistoso"/>
+<collocation text="partido de consolación"/>
+<collocation text="partido de desempate"/>
+<collocation text="partido de exhibición"/>
+<collocation text="partido de fútbol"/>
+<collocation text="partido de homenaje"/>
+<collocation text="partido de ida"/>
+<collocation text="partido de tenis"/>
+<collocation text="partido de vuelta"/>
+<synset wordnet="1.5" id="04780657n"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="pasaje" pos="NCMS">
+
+<sense id="pasaje.1" definition="Fragmento de una composición musical o una obra escrita" used="yes">
+<example text="pasaje musical"/>
+<example text="los últimos pasajes del filme"/>
+<collocation text="pasaje musical"/>
+<synset wordnet="1.5" id="04215952n"/>
+<synset wordnet="1.5" id="04565872n"/>
+</sense>
+
+<sense id="pasaje.2" definition="Billete para viajar en avión o en barco" used="yes">
+<example text="la compañía cobra por un pasaje de ida y vuelta a Madrid unos 350 euros"/>
+<synonym text="billete"/>
+<collocation text="pasaje de avión"/>
+<collocation text="pasaje de ida y vuelta"/>
+<synset wordnet="1.5" id="04270263n"/>
+</sense>
+
+<sense id="pasaje.3" definition="Lugar por donde se pasa, especialmente aquél que es estrecho y comunica dos calles" used="yes">
+<example text="se sentía mejor que en su casa en el laberinto de callejuelas y pasajes"/>
+<synonym text="paso"/>
+<synset wordnet="1.5" id="02857000n"/>
+<synset wordnet="1.5" id="02058200n"/>
+</sense>
+
+<sense id="pasaje.4" definition="Conjunto de pasajeros de un vehículo de transporte de viajeros" used="yes">
+<example text="este avión puede trasladar un pasaje de 220 a 280 personas"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="pendiente" pos="NCMS">
+
+<sense id="pendiente.1" definition="Inclinación ascendente que presenta una superficie respecto a un plano horizontal" used="no">
+<example text="la pendiente de la montaña"/>
+<synonym text="cuesta"/>
+<synonym text="subida"/>
+<synset wordnet="1.5" id="03527931n"/>
+<synset wordnet="1.5" id="03528535n"/>
+<synset wordnet="1.5" id="05675974n"/>
+<synset wordnet="1.5" id="03528434n"/>
+</sense>
+
+<sense id="pendiente.2" definition="Adorno que se coloca en la oreja" used="no">
+<example text="pendientes de perla"/>
+<collocation text="pendiente de oro"/>
+<collocation text="pendiente de perla"/>
+<collocation text="pendiente de plata"/>
+<synset wordnet="1.5" id="02457997n"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="perder" pos="VM">
+
+<mwfiltered text="donde Cristo perdió el gorro/poncho"/>
+<mwfiltered text="echar(se) a perder"/>
+<mwfiltered text="hacer perder el sentido"/>
+<mwfiltered text="llevar/tener las de perder"/>
+<mwfiltered text="no habérsele perdido nada"/>
+<mwfiltered text="no perder comba"/>
+<mwfiltered text="perder de vista"/>
+<mwfiltered text="no perder ripio"/>
+<mwfiltered text="perder hasta la camisa"/>
+<mwfiltered text="perder el conocimiento"/>
+<mwfiltered text="perder el culo"/>
+<mwfiltered text="perder el norte"/>
+<mwfiltered text="perder terreno"/>
+<mwfiltered text="¡piérdete!"/>
+<mwfiltered text="tener buen/mal perder"/>
+
+<sense id="perder.1" definition="Dejar de tener o disminuir algo que se poseía" used="yes">
+<example text="la leche pierde calidad"/>
+<example text="la hidroeléctrica perdía unos 200 millones al año"/>
+<example text="por miedo a perder su trabajo"/>
+<example text="cuando a un león se le castra pierde la melena"/>
+<example text="los técnicos unieron con silicona las juntas por las que se perdía el material peligroso"/>
+<collocation text="perder dinero"/>
+<collocation text="perder el apetito"/>
+<collocation text="perder el control"/>
+<collocation text="perder el respeto"/>
+<collocation text="perder la comunicación"/>
+<collocation text="perder la esperanza"/>
+<collocation text="perder la ilusión"/>
+<collocation text="perder la vergüenza"/>
+<collocation text="perder la vida"/>
+<collocation text="perder la vista"/>
+<collocation text="perder peso"/>
+<collocation text="perder ritmo"/>
+<collocation text="perder un brazo"/>
+</sense>
+
+<sense id="perder.2" definition="No hallar una cosa" used="no">
+<example text="ahora son las llaves, pero ayer fue la cartera y, el otro día, perdió el coche"/>
+<synonym text="extraviar"/>
+</sense>
+
+<sense id="perder.3" definition="Desperdiciar, malgastar" used="yes">
+<example text="el único fin que se busca con el plan hidrológico es utilizar los excedentes del Ebro que se pierden en el mar"/>
+<example text="no olvidemos el tiempo precioso que se perdió en el rescate"/>
+<collocation text="perder el tiempo"/>
+<collocation text="perder las horas"/>
+<synset wordnet="1.5" id="00659325v"/>
+</sense>
+
+<sense id="perder.4" definition="Dejar escapar algo o no estar a tiempo de alcanzarlo" used="yes">
+<example text="quienes conocen su música no se perderán el concierto"/>
+<example text="si pierde el vuelo de las 17.15 Barcelona-Madrid no se preocupa"/>
+<collocation text="perder el tren"/>
+<collocation text="perder la ocasión"/>
+<collocation text="perder una oportunidad"/>
+<synset wordnet="1.5" id="01155717v"/>
+<synset wordnet="1.5" id="01301721v"/>
+<synset wordnet="1.5" id="01477612v"/>
+</sense>
+
+<sense id="perder.5" definition="Ser vencido en un concurso, competición o enfrentamiento" used="yes">
+<example text="no se puede cambiar el proceso cada vez que se pierde el partido"/>
+<example text="perdió en Sarrià por dos goles a uno"/>
+<example text="la tierra nunca pierde, una generación se va y viene otra, pero la tierrra se mantiene siempre allí"/>
+<collocation text="perder a las cartas"/>
+<collocation text="perder las elecciones"/>
+<collocation text="perder un campeonato"/>
+<collocation text="perder un pleito"/>
+<collocation text="perder una carrera"/>
+<synset wordnet="1.5" id="00620218v"/>
+</sense>
+
+<sense id="perder.6" definition="Empeorar" used="no">
+<example text="pero el joven de HB casi nunca trae boina y la cosa pierde mucho "/>
+<synset wordnet="1.5" id="00122638v"/>
+</sense>
+
+<sense id="perder.7" definition="Ocasionar un daño" used="no">
+<example text="a él le pierde la filología"/>
+<example text="a la ya polémica personalidad de Wagner, le perdió que Hitler fuese un ferviente admirador de su obra"/>
+<example text="nosotros creemos que la droga les está perdiendo y los lleva hacia la destrucción"/>
+<synonym text="perjudicar"/>
+</sense>
+
+<sense id="perder.8" definition="Errar el camino o no hallarlo" used="no">
+<example text="una desafortunada casualidad les lleva a perderse por las calles de Tokio"/>
+<example text="algunas personas se perdieron en las pistas por falta de visibilidad"/>
+<example text="el senderista salió a pasear a primera hora de la tarde del domingo y se perdió"/>
+</sense>
+
+<sense id="perder.9" definition="No poder continuar un razonamiento a causa de una distracción o de la falta de comprensión" used="no">
+<example text="sin embargo, el lector se pierde"/>
+<example text="los analistas se pierden en conjeturas sobre el resultado de dicha reunión"/>
+</sense>
+
+<sense id="perder.10" definition="Descarriarse una persona" used="no">
+<example text="el joven se perdió por consumo de drogas"/>
+</sense>
+
+<sense id="perder.11" definition="Estar loco por algo o alguien" used="no">
+<example text="está perdida por él"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="popular" pos="AQCS">
+
+<mwfiltered text="tribunal popular"/>
+
+<sense id="popular.1" definition="Relativo al pueblo" used="yes">
+<example text="música popular"/>
+<example text="tradiciones populares"/>
+<synonym text="folclórico"/>
+<synset wordnet="1.5" id="00537687a"/>
+<synset wordnet="1.5" id="00363173a"/>
+<synset wordnet="1.5" id="05171170a"/>
+<synset wordnet="1.5" id="02139261a"/>
+<synset wordnet="1.5" id="00834378a"/>
+</sense>
+
+<sense id="popular.2" definition="Que gusta, que es muy conocido" used="yes">
+<example text="un cantante popular"/>
+<example text="un actor muy popular"/>
+<synonym text="famoso"/>
+<synset wordnet="1.5" id="01386309a"/>
+<synset wordnet="1.5" id="01047611a"/>
+</sense>
+
+<sense id="popular.3" definition="Relativo al Partido Popular" used="yes">
+<example text="dirigente del partido popular"/>
+<example text="un diputado popular"/>
+<collocation text="dirigente popular"/>
+<collocation text="político popular"/>
+<collocation text="sede popular"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="programa" pos="NCMS">
+
+<mwfiltered text="programa doble"/>
+
+<sense id="programa.1" definition="Emisión de radio o televisión que se presenta en un momento determinado y que constituye una unidad temática" used="yes">
+<example text="el último programa de la temporada"/>
+<example text="programa de entretenimiento"/>
+<collocation text="programa de actualidad"/>
+<collocation text="programa de entretenimiento"/>
+<collocation text="programa de entrevistas"/>
+<collocation text="programa de radio"/>
+<collocation text="programa de televisión"/>
+<collocation text="programa infantil"/>
+<synset wordnet="1.5" id="04327108n"/>
+</sense>
+
+<sense id="programa.2" definition="Descripción de las partes u objetivos de una actividad determinada" used="yes">
+<example text="los principios generales basados en el programa de la coalición"/>
+<example text="un selecto programa de obras de Beethoven, Brahms y Franck"/>
+<collocation text="programa cultural"/>
+<collocation text="programa educativo"/>
+<collocation text="programa electoral"/>
+<synset wordnet="1.5" id="03985547n"/>
+<synset wordnet="1.5" id="03985827n"/>
+<synset wordnet="1.5" id="04259068n"/>
+<synset wordnet="1.5" id="04360267n"/>
+<synset wordnet="1.5" id="04400011n"/>
+</sense>
+
+<sense id="programa.3" definition="Conjunto de instrucciones y datos codificados que se da al ordenador para que realice un trabajo determinado" used="yes">
+<example text="programas de ordenador sin licencia"/>
+<synonym text="programa informático"/>
+<synset wordnet="1.5" id="04297609n"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="saltar" pos="VM-[a]">
+
+<mwfiltered text="de donde menos se piensa/espera salta la liebre"/>
+<mwfiltered text="estar a la que salta"/>
+<mwfiltered text="saltar a la vista"/>
+<mwfiltered text="saltar al cuello de alguien"/>
+<mwfiltered text="saltar a los ojos"/>
+<mwfiltered text="saltar chispas"/>
+<mwfiltered text="saltar de alegría"/>
+<mwfiltered text="saltar de contento"/>
+<mwfiltered text="saltar el corazón del pecho"/>
+<mwfiltered text="saltar lágrimas"/>
+
+<sense id="saltar.1" definition="Levantarse o elevarse del lugar donde se está con un impulso súbito" used="yes">
+<example text="el niño salta a la comba"/>
+<example text="el estruendo lo hizo saltar del sofá"/>
+<example text="saltar del coche"/>
+<example text="saltar de la cama"/>
+<synonym text="botar"/>
+<synset wordnet="1.5" id="01200552v"/>
+<synset wordnet="1.5" id="01088464v"/>
+</sense>
+
+<sense id="saltar.2" definition="Lanzarse desde un lugar alto" used="yes">
+<example text="saltó desde el acantilado"/>
+<example text="saltar desde un trampolín"/>
+<example text="saltar al mar"/>
+<synonym text="arrojarse"/>
+<collocation text="saltar al vacío"/>
+<synset wordnet="1.5" id="01127876v"/>
+<synset wordnet="1.5" id="01123117v"/>
+</sense>
+
+<sense id="saltar.3" definition="Abalanzarse sobre otro para atacarle" used="no">
+<example text="el gato saltó sobre el ratón"/>
+<example text="el centrocampista saltó sobre el defensa"/>
+<synonym text="abalanzarse"/>
+<synset wordnet="1.5" id="00634190v"/>
+<synset wordnet="1.5" id="01118288v"/>
+<synset wordnet="1.5" id="01178381v"/>
+<synset wordnet="1.5" id="01118938v"/>
+</sense>
+
+<sense id="saltar.4" definition="Hacer explosión" used="yes">
+<example text="la ventana saltó en pedazos"/>
+<example text="los terroristas hicieron saltar el edificio"/>
+<collocation text="saltar por los aires"/>
+<collocation text="saltar en pedazos"/>
+<synset wordnet="1.5" id="00901566v"/>
+<synset wordnet="1.5" id="00185045v"/>
+<synset wordnet="1.5" id="00643046v"/>
+</sense>
+
+<sense id="saltar.5" definition="Dispararse un mecanismo, encenderse algo" used="no">
+<example text="saltar una alarma"/>
+<example text="hizo saltar la red general"/>
+<example text="le saltó el buzón de voz"/>
+<synonym text="activarse"/>
+<synonym text="encenderse"/>
+<collocation text="saltar la chispa"/>
+<synset wordnet="1.5" id="00868152v"/>
+</sense>
+
+<sense id="saltar.6" definition="Soltarse, desprenderse una cosa" used="no">
+<example text="saltar un tapón"/>
+<example text="saltar un empaste"/>
+<example text="la cerradura saltó"/>
+<synset wordnet="1.5" id="00849960v"/>
+<synset wordnet="1.5" id="00745562v"/>
+<synset wordnet="1.5" id="00250544v"/>
+</sense>
+
+<sense id="saltar.7" definition="Mostrar una persona su irritación o enfado" used="no">
+<example text="está irritado y salta por todo"/>
+<synonym text="enfadarse"/>
+<synonym text="irritarse"/>
+<synset wordnet="1.5" id="00404923v"/>
+<synset wordnet="1.5" id="00185244v"/>
+</sense>
+
+<sense id="saltar.8" definition="Decir algo inesperado, irrumpir inesperadamente en una conversación" used="no">
+<example text="saltó con que se iba a Chile"/>
+<example text="¿Pero quién es la Astrea esa? - salté"/>
+<synset wordnet="1.5" id="50000220v"/>
+</sense>
+
+<sense id="saltar.9" definition="Pasar de una cosa a otra, de una situación a otra" used="yes">
+<example text="es una historia que salta de castillos medievales a un parque de atracciones"/>
+<example text="saltó al primer puesto de las listas de ventas"/>
+<example text="la proximidad de los coches provocó que el fuego saltara de uno a otro con rapidez"/>
+<example text="saltaron juntos a la NBA en 1992"/>
+<synonym text="pasar"/>
+<collocation text="saltar a la fama"/>
+<collocation text="saltar al cine"/>
+<synset wordnet="1.5" id="00071897v"/>
+</sense>
+
+<sense id="saltar.10" definition="Salir a un sitio determinado" used="yes">
+<example text="los tenistas saltaron a la pista"/>
+<synonym text="salir"/>
+<collocation text="saltar al césped"/>
+<synset wordnet="1.5" id="00311709v"/>
+<synset wordnet="1.5" id="00984191v"/>
+</sense>
+
+<sense id="saltar.11" definition="Dejar alguien el puesto de trabajo que ocupaba, contra su voluntad" used="no">
+<example text="saltó el gerente a causa del escándalo"/>
+<synset wordnet="1.5" id="01360552v"/>
+</sense>
+
+<sense id="saltar.12" definition="Aparecer, surgir algo inesperado, en especial a escena pública" used="yes">
+<example text="la polémica saltó ayer"/>
+<example text="el escándalo saltó a principios de enero"/>
+<example text="cuando saltó la noticia corrieron a echar una mano"/>
+<synonym text="surgir"/>
+<synset wordnet="1.5" id="00253652v"/>
+</sense>
+
+<sense id="saltar.13" definition="Pasar por alto, omitir" used="no">
+<example text="se saltó tres líneas del texto al copiarlo"/>
+<example text="se saltó un curso"/>
+<synonym text="omitir"/>
+<synset wordnet="1.5" id="00345847v"/>
+<synset wordnet="1.5" id="00346688v"/>
+<synset wordnet="1.5" id="01477800v"/>
+</sense>
+
+<sense id="saltar.14" definition="Pasar por encima un espacio, una distancia o un obstáculo" used="yes">
+<example text="saltar una valla"/>
+<synonym text="salvar"/>
+<synset wordnet="1.5" id="01200357v"/>
+<synset wordnet="1.5" id="01200460v"/>
+</sense>
+
+<sense id="saltar.15" definition="Incumplir o infringir una regla, un precepto" used="yes">
+<example text="saltarse la cola"/>
+<example text="saltarse una norma"/>
+<example text="saltarse un semáforo"/>
+<synonym text="incumplir"/>
+<synonym text="infringir"/>
+<synset wordnet="1.5" id="01452142v"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="simple" pos="AQCS">
+
+<mwfiltered text="simple vista"/>
+
+<sense id="simple.1" definition="Que no es complicado" used="yes">
+<example text="problema simple"/>
+<example text="instrucciones simples"/>
+<synonym text="sencillo"/>
+<synonym text="fácil"/>
+<synset wordnet="1.5" id="00564675a"/>
+<synset wordnet="1.5" id="01667760a"/>
+</sense>
+
+<sense id="simple.2" definition="Que es ingenuo o tonto" used="no">
+<example text="es una persona muy simple"/>
+<synonym text="ingenuo"/>
+<synonym text="tonto"/>
+<synonym text="necio"/>
+<synonym text="lerdo"/>
+<synset wordnet="1.5" id="01724761a"/>
+<synset wordnet="1.5" id="01406400a"/>
+<synset wordnet="1.5" id="01725632a"/>
+</sense>
+
+<sense id="simple.3" definition="Que es suficiente o único" used="yes">
+<example text="dame un simple motivo para que me quede contigo"/>
+<example text="no vino, por la simple razón que no quiso"/>
+<synonym text="único"/>
+<synset wordnet="1.5" id="01367170a"/>
+<synset wordnet="1.5" id="00831360a"/>
+</sense>
+
+<sense id="simple.4" definition="Que está formado por uno o pocos componentes comparado con algo del mismo género formado por varios" used="yes">
+<example text="flor de corona simple"/>
+<example text="sustancia simple"/>
+<collocation text="átomo simple"/>
+<collocation text="oración simple"/>
+<collocation text="sustancia simple"/>
+<synset wordnet="1.5" id="01660706a"/>
+<synset wordnet="1.5" id="01668349a"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="subir" pos="VM">
+
+<mwfiltered text="subir al trono"/>
+<mwfiltered text="subir como (la) espuma"/>
+<mwfiltered text="subir de tono"/>
+<mwfiltered text="subirse a las barbas"/>
+<mwfiltered text="subirse a la parra"/>
+<mwfiltered text="subirse al carro de algo"/>
+<mwfiltered text="subirse al tren de algo"/>
+<mwfiltered text="subirse a predicar"/>
+<mwfiltered text="subírsele a la cabeza"/>
+<mwfiltered text="subírsele los humos"/>
+<mwfiltered text="subirse por las paredes"/>
+
+<sense id="subir.1" definition="Ir a un lugar situado más arriba" used="yes">
+<example text="mientras uno bajaba las escaleras el otro subía en ascensor"/>
+<example text="subió con rapidez en el escalafón"/>
+<example text="subiendo a la derecha de la catedral hay un edificio"/>
+<example text="subí al coche y comprobé el manejo del cambio de marchas"/>
+<collocation text="subir en ascensor"/>
+<collocation text="subir las escaleras"/>
+<synset wordnet="1.5" id="00092840v"/>
+<synset wordnet="1.5" id="01121367v"/>
+<synset wordnet="1.5" id="01124703v"/>
+</sense>
+
+<sense id="subir.2" definition="Ascender a una posición superior en un ranking" used="yes">
+<example text="subió al primer puesto de la general"/>
+<synonym text="ascender"/>
+<collocation text="subir de categoría"/>
+<collocation text="subir al podio"/>
+</sense>
+
+<sense id="subir.3" definition="Poner en un lugar o posición superiores" used="no">
+<example text="yo no puedo subir y bajar la silla de ruedas en los bordillos"/>
+<example text="el alcalde subió a la &quot;enxaneta&quot;"/>
+<collocation text="subir el telón"/>
+<collocation text="subir en alto"/>
+<collocation text="subir la cabeza"/>
+<collocation text="subir la persiana"/>
+<collocation text="subir la ventanilla"/>
+<synset wordnet="1.5" id="00837547v"/>
+</sense>
+
+<sense id="subir.4" definition="Referido a una cuenta o factura, alcanzar una cantidad" used="no">
+<example text="las cuentas suben a 21.117 millones de pesetas"/>
+<example text="la facturación ha crecido un 12 % sobre el mismo periodo de 1999 y ha subido a 3.517 millones"/>
+<synset wordnet="1.5" id="01152122v"/>
+</sense>
+
+<sense id="subir.5" definition="Aumentar la intensidad, el valor o la cantidad de algo" used="yes">
+<example text="a partir del martes próximo las temperaturas volverán a subir"/>
+<example text="la avellana ya había aumentado su cotización en el mercado, subiendo de 3 a 3,15 dólares el kilo"/>
+<synonym text="aumentar"/>
+<collocation text="subir el sueldo"/>
+<collocation text="subir el volumen"/>
+<collocation text="subir la audiencia"/>
+<collocation text="subir la fiebre"/>
+<collocation text="subir la voz"/>
+<collocation text="subir las temperaturas"/>
+<collocation text="subir los precios"/>
+<collocation text="subir un río"/>
+<synset wordnet="1.5" id="00095281v"/>
+<synset wordnet="1.5" id="002557753v"/>
+<synset wordnet="1.5" id="00092545v"/>
+<synset wordnet="1.5" id="01131336v"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="tabla" pos="NCFS">
+
+<mwfiltered text="a raja tabla"/>
+<mwfiltered text="hacer tabla rasa de"/>
+<mwfiltered text="tabla de ejercicios"/>
+<mwfiltered text="tabla de salvación"/>
+<mwfiltered text="tablas de la ley"/>
+
+<sense id="tabla.1" definition="Trozo de madera u otro material, plano y de poco grosor" used="yes">
+<example text="la tabla de la mesa"/>
+<example text="una tabla de mármol"/>
+<synonym text="plancha"/>
+<collocation text="tabla flamenca"/>
+<collocation text="tabla de picar"/>
+<collocation text="tabla de planchar"/>
+<collocation text="tabla de windsurf"/>
+<synset wordnet="1.5" id="03057072n"/>
+<synset wordnet="1.5" id="03161726n"/>
+<synset wordnet="1.5" id="09061038n"/>
+</sense>
+
+<sense id="tabla.2" definition="Lista ordenada de nombres, números u otro tipo de datos relacionados entre sí" used="yes">
+<example text="la tabla de clasificación"/>
+<example text="una tabla de necesidades energéticas"/>
+<example text="la situación actual del equipo en la tabla"/>
+<collocation text="tabla de los elementos"/>
+<collocation text="tabla de logaritmos"/>
+<collocation text="tabla de materias"/>
+<collocation text="tabla de multiplicar"/>
+<collocation text="tabla periódica"/>
+<synset wordnet="1.5" id="04540205n"/>
+<synset wordnet="1.5" id="05266079n"/>
+</sense>
+
+<sense id="tabla.3" definition="Pliegue que se hace en una tela y sirve de adorno" used="no">
+<example text="falda de tablas"/>
+<collocation text="falda de tablas"/>
+<synset wordnet="1.5" id="02901675n"/>
+</sense>
+
+<sense id="tabla.4" definition="Escenario de un teatro" used="no">
+<example text="las tablas de un teatro"/>
+<example text="volver a las tablas"/>
+</sense>
+
+<sense id="tabla.5" definition="Situación de empate entre varios jugadores después de un juego o partido, especialmente en las damas y el ajedrez" used="yes">
+<example text="el partido terminó en tablas"/>
+<synset wordnet="1.5" id="08567025n"/>
+</sense>
+
+<sense id="tabla.6" definition="Conocimientos y experiencia que tiene una persona para realizar satisfactoriamente una actividad" used="no">
+<example text="un trabajo que requiere muchas tablas"/>
+<collocation text="tener tablas"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="timbre" pos="NCMS">
+
+<mwfiltered text="papel timbre"/>
+
+<sense id="timbre.1" definition="Pequeño dispositivo normalmente eléctrico que emite un sonido y sirve para avisar o llamar" used="no">
+<example text="el timbre de casa"/>
+<example text="tocar el timbre"/>
+<synonym text="llamador"/>
+<synonym text="campanilla"/>
+<collocation text="timbre del teléfono"/>
+<collocation text="timbre de la puerta"/>
+<collocation text="tocar el timbre"/>
+<synset wordnet="1.5" id="02148647n"/>
+</sense>
+
+<sense id="timbre.2" definition="Cualidad de un sonido que permite distinguirlo de otros de igual tono o intensidad" used="no">
+<example text="un timbre de voz delicioso"/>
+<example text="el timbre del clave de sol"/>
+<collocation text="timbre de voz"/>
+<synset wordnet="1.5" id="03477661n"/>
+<synset wordnet="1.5" id="03480907n"/>
+</sense>
+
+<sense id="timbre.3" definition="Sello que se estampa o se pega en algunos documentos como señal del pago de un impuesto o renta a cambio de un servicio" used="no">
+<example text="el timbre de 33 centavos"/>
+<synonym text="sello"/>
+<collocation text="timbre fiscal"/>
+<synset wordnet="1.5" id="08171213n"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="tocar" pos="VM">
+
+<mwfiltered text="estar alguien tocado de una enfermedad"/>
+<mwfiltered text="estar alguien tocado de un mal"/>
+<mwfiltered text="estar tocado por una mano divina"/>
+<mwfiltered text="tocar a su fin"/>
+<mwfiltered text="tocar con los pies en el suelo"/>
+<mwfiltered text="tocar fondo"/>
+<mwfiltered text="tocar la fibra (sensible)"/>
+<mwfiltered text="tocar las narices"/>
+<mwfiltered text="tocar madera"/>
+
+<sense id="tocar.1" definition="Percibir una cosa por el tacto, ejercitar este sentido" used="yes">
+<example text="nuestra experiencia vital está basada en percepciones físicas - ver, oír, oler, gustar y tocar"/>
+<example text="tocó el bulto con cuidado"/>
+<synset wordnet="1.5" id="00686113v"/>
+<synset wordnet="1.5" id="01214078v"/>
+<synset wordnet="1.5" id="00686908v"/>
+</sense>
+
+<sense id="tocar.2" definition="Hacer sonar un instrumento musical, interpretar una melodía" used="yes">
+<example text="en el concierto tocó sus propias canciones"/>
+<example text="toca espléndidamente"/>
+<synonym text="hacer sonar"/>
+<synonym text="interpretar"/>
+<synset wordnet="1.5" id="00986444v"/>
+<synset wordnet="1.5" id="00986807v"/>
+<synset wordnet="1.5" id="00987477v"/>
+<synset wordnet="1.5" id="00982036v"/>
+</sense>
+
+<sense id="tocar.3" definition="Hacer sonar una campana, un timbre, una sirena" used="no">
+<example text="tocaron las campanas en señal de duelo"/>
+<synonym text="hacer sonar"/>
+<collocation text="tocar diana"/>
+<collocation text="tocar a retirada"/>
+<synset wordnet="1.5" id="01244553v"/>
+<synset wordnet="1.5" id="01244976v"/>
+<synset wordnet="1.5" id="01246732v"/>
+<synset wordnet="1.5" id="00519103v"/>
+</sense>
+
+<sense id="tocar.4" definition="Rozar o chocar una cosa con otra" used="no">
+<example text="al aparcar, el coche tocó la moto"/>
+<synonym text="dar un golpe"/>
+<synonym text="chocar"/>
+<synset wordnet="1.5" id="00687702v"/>
+<synset wordnet="1.5" id="00687813v"/>
+</sense>
+
+<sense id="tocar.5" definition="Alterar el estado o condición de una cosa" used="yes">
+<example text="le tocó sus papeles"/>
+<example text="no toques nada del texto"/>
+<synset wordnet="1.5" id="00687118v"/>
+</sense>
+
+<sense id="tocar.6" definition="Tratar un asunto por encima" used="yes">
+<example text="en la reunión se tocó el tema de la financiación"/>
+<synonym text="mencionar"/>
+<synset wordnet="1.5" id="00578693v"/>
+<synset wordnet="1.5" id="00580227v"/>
+</sense>
+
+<sense id="tocar.7" definition="Provocar una reacción emocional en una persona" used="no">
+<example text="sus palabras le tocaron"/>
+<synonym text="afectar"/>
+<synset wordnet="1.5" id="50000221v"/>
+</sense>
+
+<sense id="tocar.8" definition="Llegar el momento, el turno o la oportunidad para realizar algo" used="yes">
+<example text="ahora toca estudiar"/>
+<example text="a ti te toca decidir"/>
+<collocation text="tocar el turno"/>
+</sense>
+
+<sense id="tocar.9" definition="Corresponder una cosa a una persona" used="yes">
+<example text="a ti te tocan 7 caramelos"/>
+<example text="le ha tocado el gordo"/>
+<synonym text="corresponder"/>
+<synonym text="caer"/>
+<synset wordnet="1.5" id="01343559v"/>
+</sense>
+
+<sense id="tocar.10" definition="Pasar por un lugar o cerca de él" used="no">
+<example text="es mejor no tocar la capital a estas horas para evitar las retenciones"/>
+<example text="pasamos tocando tu pueblo"/>
+<synset wordnet="1.5" id="01171964v"/>
+</sense>
+
+<sense id="tocar.11" definition="Estar una cosa cerca de otra" used="no">
+<example text="su casa y la mía se tocan"/>
+<example text="este comportamiento toca la impertinencia"/>
+<synset wordnet="1.5" id="01517621v"/>
+<synset wordnet="1.5" id="00685874v"/>
+</sense>
+
+<sense id="tocar.12" definition="Concernir, ser de interés, ser de la obligación o cargo de alguien" used="no">
+<example text="el terrorismo nos toca de cerca"/>
+<synonym text="atañer"/>
+<synonym text="afectar"/>
+<collocation text="tocar de cerca"/>
+<synset wordnet="1.5" id="01513147v"/>
+</sense>
+
+<sense id="tocar.13" definition="Cubrirse la cabeza con algo" used="no">
+<example text="iba tocado con boina"/>
+<synonym text="cubrir"/>
+<synset wordnet="1.5" id="00031055v"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="tratar" pos="VM">
+
+<sense id="tratar.1" definition="Discutir, exponer o estudiar un asunto o idea" used="yes">
+<example text="la reunión trató de la nueva ley"/>
+<example text="el libro trata de la fusión nuclear"/>
+<synonym text="abordar"/>
+<synonym text="versar"/>
+<synset wordnet="1.5" id="00584229v"/>
+</sense>
+
+<sense id="tratar.2" definition="Conducirse de cierta manera con algo o alguien" used="no">
+<example text="trata los libros de cualquier manera"/>
+<example text="la trata a patadas"/>
+<example text="lo trata como a un perro"/>
+<example text="lo trataré como a un hijo"/>
+<synonym text="conducirse"/>
+<synonym text="comportarse"/>
+<synset wordnet="1.5" id="01423425v"/>
+</sense>
+
+<sense id="tratar.3" definition="Dirigirse a una persona en un registro específico" used="no">
+<example text="siempre me trata de tú"/>
+<synonym text="dirigirse"/>
+<synset wordnet="1.5" id="00581882v"/>
+</sense>
+
+<sense id="tratar.4" definition="Adjudicar un calificativo a una persona" used="no">
+<example text="le trató de idiota"/>
+<synonym text="calificar"/>
+<synonym text="considerar"/>
+<synset wordnet="1.5" id="00538726v"/>
+</sense>
+
+<sense id="tratar.5" definition="Intentar llevar a cabo una acción" used="yes">
+<example text="trató de terminarlo a tiempo pero le fue imposible"/>
+<synonym text="intentar"/>
+<synset wordnet="1.5" id="01432563v"/>
+</sense>
+
+<sense id="tratar.6" definition="Aplicar un tratamiento terapéutico a un paciente" used="no">
+<example text="lo están tratando con una nueva terapia"/>
+<synset wordnet="1.5" id="00048767v"/>
+</sense>
+
+<sense id="tratar.7" definition="Comerciar, hacer negocios con algún producto" used="no">
+<example text="trata en muebles antiguos"/>
+<synonym text="comerciar"/>
+<synonym text="negociar"/>
+<synset wordnet="1.5" id="01278539v"/>
+</sense>
+
+<sense id="tratar.8" definition="Mostrar cierta habilidad en el manejo de una determinada técnica o arte" used="no">
+<example text="los paisajes están tratados de manera magistral"/>
+<example text="ese cocinero innova mucho a la hora de tratar las texturas"/>
+</sense>
+
+<sense id="tratar.9" definition="Manipular un objeto o una sustancia mediante otra sustancia o técnica específica" used="no">
+<example text="tratar la madera con barniz"/>
+<example text="cada año se tratan más de 300 millones de pieles"/>
+<synonym text="procesar"/>
+<synonym text="manipular"/>
+<synset wordnet="1.5" id="00302695v"/>
+</sense>
+
+<sense id="tratar.10" definition="Realizar operaciones lógicas y matemáticas a partir de datos y siguiendo instrucciones programadas para obtener la información que se requiere" used="no">
+<example text="tratar textos automáticamente"/>
+<synonym text="procesar"/>
+<synset wordnet="1.5" id="00359083v"/>
+</sense>
+
+<sense id="tratar.11" definition="Relacionarse dos o más personas entre ellas" used="no">
+<example text="nunca la he tratado"/>
+<example text="no trata con ese tipo de gente"/>
+<example text="hace años que no se tratan"/>
+<synonym text="relacionarse"/>
+<synset wordnet="1.5" id="01391305v"/>
+<synset wordnet="1.5" id="01378917v"/>
+</sense>
+
+<sense id="tratar.12" definition="Constituir el objeto de lo que se habla, hace o intenta" used="yes">
+<example text="cuando se trata de economía las cosas son de otro modo"/>
+<example text="se trata de algo que va a pasar el día 10"/>
+<example text="no se trata de esgrimir armas para conseguir razones"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="usar" pos="VM">
+
+<sense id="usar.1" definition="Utilizar una cosa para un fin" used="yes">
+<example text="usó el cepillo para limpiarse los zapatos"/>
+<example text="usó de todos sus ahorros para comprarse ese coche"/>
+<example text="tuve que usar todo mi poder de convicción"/>
+<synonym text="utilizar"/>
+<synset wordnet="1.5" id="00658243v"/>
+<synset wordnet="1.5" id="00658041v"/>
+</sense>
+
+<sense id="usar.2" definition="Tener por costumbre llevar un objeto" used="yes">
+<example text="usa gafas"/>
+<synonym text="llevar"/>
+<synset wordnet="1.5" id="00030951v"/>
+<synset wordnet="1.5" id="00031055v"/>
+</sense>
+
+<sense id="usar.3" definition="Ser habitual, estar de moda" used="no">
+<example text="se usa llevar el pelo corto"/>
+<example text="iban a pasar las vacaciones a la playa, como decían que se usaba otra vez"/>
+<synonym text="llevarse"/>
+<synonym text="estar de moda"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="vencer" pos="VM">
+
+<mwfiltered text="divide y vencerás"/>
+
+<sense id="vencer.1" definition="Superar, ganar al enemigo o a un competidor" used="yes">
+<example text="vencieron sin problemas a sus rivales"/>
+<example text="su enemigo venció esa batalla"/>
+<synonym text="derrotar"/>
+<synset wordnet="1.5" id="00621705v"/>
+<synset wordnet="1.5" id="00626539v"/>
+<synset wordnet="1.5" id="00620486v"/>
+</sense>
+
+<sense id="vencer.2" definition="Estar por encima de los demás en una cualidad" used="no">
+<example text="a gracioso, nadie le vence"/>
+<synonym text="aventajar"/>
+<synset wordnet="1.5" id="00624716v"/>
+</sense>
+
+<sense id="vencer.3" definition="Prevalecer una cosa sobre otra" used="no">
+<example text="la pasión venció a la razón"/>
+<synonym text="prevalecer"/>
+<synset wordnet="1.5" id="01496269v"/>
+</sense>
+
+<sense id="vencer.4" definition="Superar obstáculos, dificultades, etc." used="yes">
+<example text="vencer una enfermedad"/>
+<synonym text="superar"/>
+<synset wordnet="1.5" id="01155047v"/>
+<synset wordnet="1.5" id="00622526v"/>
+</sense>
+
+<sense id="vencer.5" definition="Rendirse alguien ante algo difícil de resistir o superar" used="no">
+<example text="le venció la pereza"/>
+<example text="vencerle a alguien el sueño"/>
+<example text="le venció el cáncer"/>
+<synonym text="rendirse"/>
+<synonym text="desistir"/>
+<synset wordnet="1.5" id="00611702v"/>
+</sense>
+
+<sense id="vencer.6" definition="Acabar, prescribir un contrato o plazo" used="yes">
+<example text="los pagarés vencían el pasado 5 de enero"/>
+<synonym text="prescribir"/>
+<synonym text="acabar"/>
+<synonym text="expirar"/>
+<synset wordnet="1.5" id="01517008v"/>
+</sense>
+
+<sense id="vencer.7" definition="Deformarse una cosa por el peso de otra" used="no">
+<example text="la estantería se venció con tantos libros"/>
+<synonym text="deformarse"/>
+<synonym text="ladearse"/>
+<synset wordnet="1.5" id="01165181v"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="verde" pos="AQCS">
+
+<mwfiltered text="boina verde"/>
+<mwfiltered text="dejar verde"/>
+<mwfiltered text="judías verdes"/>
+<mwfiltered text="luz verde"/>
+<mwfiltered text="poner verde"/>
+
+<sense id="verde.1" definition="Del color que resulta de la mezcla entre el amarillo y el azul" used="yes">
+<example text="ojos verdes"/>
+<example text="vestido verde"/>
+<collocation text="alga verde"/>
+<collocation text="color verde"/>
+<collocation text="ojos verdes"/>
+<synset wordnet="1.5" id="00291871a"/>
+</sense>
+
+<sense id="verde.2" definition="Que no está seco" used="no">
+<example text="leña verde"/>
+<synset wordnet="1.5" id="01136111a"/>
+</sense>
+
+<sense id="verde.3" definition="Que todavía está empezando, que aún no está maduro" used="no">
+<example text="estas uvas están verdes"/>
+<example text="estos estudiantes están muy verdes"/>
+<synonym text="inmaduro"/>
+<collocation text="almendras verdes"/>
+<collocation text="judías verdes"/>
+<synset wordnet="1.5" id="01134729a"/>
+<synset wordnet="1.5" id="00700083a"/>
+<synset wordnet="1.5" id="01480817a"/>
+</sense>
+
+<sense id="verde.4" definition="Obsceno o picante" used="no">
+<example text="comentario verde"/>
+<example text="chiste verde"/>
+<synonym text="obsceno"/>
+<synonym text="picante"/>
+<collocation text="comentario verde"/>
+<collocation text="chiste verde"/>
+<collocation text="viejo verde"/>
+<synset wordnet="1.5" id="00314093a"/>
+<synset wordnet="1.5" id="01639182a"/>
+<synset wordnet="1.5" id="00314333a"/>
+</sense>
+
+<sense id="verde.5" definition="Referido a la naturaleza o a la ecología" used="yes">
+<example text="el partido verde"/>
+<synonym text="ecológico"/>
+<collocation text="contenedor verde"/>
+<collocation text="diputado verde"/>
+<collocation text="espacio verde"/>
+<collocation text="líder verde"/>
+<collocation text="partido verde"/>
+<collocation text="político verde"/>
+<collocation text="zona verde"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="vital" pos="AQCS">
+
+<sense id="vital.1" definition="De gran importancia, trascendental" used="yes">
+<example text="es vital que nos veamos esta noche"/>
+<synonym text="indispensable"/>
+<synonym text="fundamental"/>
+<collocation text="cuestión vital"/>
+<collocation text="importancia vital"/>
+<collocation text="interés vital"/>
+<collocation text="vital importancia"/>
+<synset wordnet="1.5" id="00672823a"/>
+</sense>
+
+<sense id="vital.2" definition="Referido a la vida" used="yes">
+<example text="sus funciones vitales estaban muy dañadas"/>
+<example text="experiencia vital"/>
+<collocation text="angustia vital"/>
+<collocation text="compromiso vital"/>
+<collocation text="constante vital"/>
+<collocation text="equilibrio vital"/>
+<collocation text="experiencia vital"/>
+<collocation text="función vital"/>
+<collocation text="necesidad vital"/>
+<collocation text="órgano vital"/>
+<collocation text="proyecto vital"/>
+<collocation text="trayectoria vital"/>
+<synset wordnet="1.5" id="00077528a"/>
+<synset wordnet="1.5" id="00671767a"/>
+<synset wordnet="1.5" id="00096132a"/>
+</sense>
+
+<sense id="vital.3" definition="Dotado de una gran vitalidad" used="no">
+<example text="tiene un carácter muy vital"/>
+<example text="es una persona vital"/>
+<synset wordnet="1.5" id="00601086a"/>
+<synset wordnet="1.5" id="00601854a"/>
+<synset wordnet="1.5" id="00028561a"/>
+<synset wordnet="1.5" id="01731376a"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="volar" pos="VM">
+
+<mwfiltered text="como volar"/>
+<mwfiltered text="echar a volar la imaginación"/>
+<mwfiltered text="el que no corre vuela"/>
+<mwfiltered text="hacer volar la imaginación"/>
+<mwfiltered text="volar alto"/>
+<mwfiltered text="volar las noticias"/>
+<mwfiltered text="volarle la cabeza a alguien"/>
+
+<sense id="volar.1" definition="Moverse o ir por el aire" used="yes">
+<example text="este insecto puede volar"/>
+<example text="había piedras que volaban de aquí para allá"/>
+<example text="que los esclavos-niños empiecen a volar"/>
+<example text="el avión volaba a Tánger con 25 pasajeros"/>
+<synset wordnet="1.5" id="01104809v"/>
+</sense>
+
+<sense id="volar.2" definition="Desplazarse o mantenerse en el aire con un medio de transporte aéreo" used="yes">
+<example text="le gustaría volar alrededor del mundo"/>
+<example text="volaban rumbo a Roma"/>
+<synset wordnet="1.5" id="01049360v"/>
+<synset wordnet="1.5" id="01105315v"/>
+<synset wordnet="1.5" id="00835180v"/>
+</sense>
+
+<sense id="volar.3" definition="Desaparecer algo o alguien rápida e inesperadamente" used="no">
+<example text="las entradas volaron en pocas horas"/>
+<synonym text="esfumarse"/>
+<synset wordnet="1.5" id="00253904v"/>
+<synset wordnet="1.5" id="01187369v"/>
+</sense>
+
+<sense id="volar.4" definition="Ir o realizar algo muy deprisa" used="no">
+<example text="cuando supo la noticia, vino volando"/>
+<example text="voló hasta su casa porque llegaba tarde"/>
+<synset wordnet="1.5" id="01050370v"/>
+<synset wordnet="1.5" id="01079362v"/>
+</sense>
+
+<sense id="volar.5" definition="Pasar muy deprisa, especialmente el tiempo" used="no">
+<example text="el tiempo vuela"/>
+<synset wordnet="1.5" id="01186174v"/>
+</sense>
+
+<sense id="volar.6" definition="Hacer saltar algo en pedazos por la acción de explosivos" used="yes">
+<example text="los terroristas volaron el edificio"/>
+<example text="el edificio voló por los aires"/>
+<collocation text="volar en pedazos"/>
+<collocation text="volar por los aires"/>
+<synset wordnet="1.5" id="00901566v"/>
+<synset wordnet="1.5" id="00185462v"/>
+</sense>
+
+</lexelt>
+
+<lexelt item="órgano" pos="NCMS">
+
+<sense id="órgano.1" definition="Instrumento musical de viento o electrónico formado por uno o más teclados" used="no">
+<example text="piezas musicales de su creación ejecutadas con órgano clásico"/>
+<synonym text="órgano electrónico"/>
+<synset wordnet="1.5" id="02831270n"/>
+<synset wordnet="1.5" id="02604665n"/>
+</sense>
+
+<sense id="órgano.2" definition="Parte o miembro del cuerpo animal o vegetal que ejerce una función" used="yes">
+<example text="el mayor órgano del cuerpo humano"/>
+<example text="el órgano de la vista"/>
+<synonym text="miembro"/>
+<collocation text="órgano animal"/>
+<collocation text="órgano articulatorio"/>
+<collocation text="órgano genital"/>
+<collocation text="órgano humano"/>
+<collocation text="órgano reproductor"/>
+<collocation text="órgano sensorial"/>
+<collocation text="órgano sexual"/>
+<collocation text="órgano trasplantado"/>
+<collocation text="órgano vascular"/>
+<collocation text="órgano vital"/>
+<synset wordnet="1.5" id="03650737n"/>
+<synset wordnet="1.5" id="07977350n"/>
+</sense>
+
+<sense id="órgano.3" definition="Parte de un conjunto que tiene una función determinada" used="yes">
+<example text="el órgano de gobierno del hospital"/>
+<example text="el órgano transmisor de energía"/>
+<example text="en el primer golpe no fue afectado ningún órgano mecánico del vehículo "/>
+<collocation text="órgano administrativo"/>
+<collocation text="órgano de dirección"/>
+<collocation text="órgano de gobierno"/>
+<collocation text="órgano disciplinario"/>
+<collocation text="órgano ejecutivo"/>
+<collocation text="órgano informativo"/>
+<collocation text="órgano judicial"/>
+<collocation text="órgano jurisdiccional"/>
+<collocation text="órgano legislativo"/>
+<collocation text="órgano militar"/>
+<collocation text="órgano político"/>
+<synset wordnet="1.5" id="05302115n"/>
+</sense>
+
+</lexelt>
+
+</minidir>

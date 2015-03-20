@@ -1,0 +1,33 @@
+Para ejecutar el programa [en python] entero debe tener en cuenta y seguir las siguientes indicaciones:
+
+    0. Hallará una carpeta denominada 'Tagging', donde se encontrarán 3 subcarpetas que corresponderan al primer, segundo y tercer paso del etiquetado de archivos indicados en el enunciado.
+
+
+    1. Primer Paso: En esta carpeta se crea el archivo 'lexic.txt', el cual es nuestro Modelo de Lenguaje.
+
+    Para ejecutar esta parte del programa debe introducirse en la carpeta 'src' y utilizar el siguiente comando:
+        
+        python2.7 ./tagging.py corpus.txt
+        [Requiere python 2.x]
+
+    Los resultados de esta ejecución los encontrará en la carpeta 'results'.
+
+
+    2. Segundo Paso: En esta carpeta se crean los archivos 'etiquetext1.txt' y 'etiquetext2.txt' que son 'test_1.txt' y 'test_2.txt' etiquetados respectivamente mediante nuestro Modelo de Lenguaje creado en el paso anterior. 
+
+    Para ejecutar esta parte del programa debe introducirse en la carpeta 'src' y utilizar el siguiente comando:
+        
+        python2.7 ./etique.py test_1.txt test_2.txt lexic.txt 
+        [Requiere python 2.x]
+        
+    Los resultados de esta ejecución los encontrará en la carpeta 'results'.
+
+
+    3. Tercer Paso: En esta carpeta se evalúan los ficheros etiquetados generados por nuestro programa y Modelo de Lenguaje ('etiquetext1.txt' y 'etiquetext2.txt') junto con los proporcionados por la practica ('gold_standard_1.txt', 'gold_standard_2.txt'). 
+
+    Para ejecutar esta parte del programa debe introducirse en la carpeta 'src' y utilizar el siguiente comando:
+        
+        python3.2 ./eval.py etiquetext1.txt gold_standard_1.txt etiquetext2.txt gold_standard_2.txt
+	[Requiere python 3.x]
+
+    Los resultados de esta ejecución los encontrará en la carpeta 'results'.
